@@ -1,0 +1,342 @@
+/* stile.css */
+
+/* Stili di base (rimangono simili) */
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fdfdfd;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    border-bottom: none;
+    margin-top: 2em;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #2c3e50;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.metadata-panel {
+    flex: 1;
+    min-width: 280px;
+    padding-right: 2em;
+}
+
+.content-panel {
+    flex: 3;
+    min-width: 600px;
+    display: flex;
+}
+
+.column {
+    padding: 0 1em;
+}
+
+.facsimile-column {
+    flex: 1;
+}
+
+.transcription-column {
+    flex: 1;
+}
+
+.facsimile-image img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+
+/* --- STILI PER L'INTERATTIVITÀ --- */
+
+/* 1. Stile di default per le entità: NESSUNA EVIDENZIAZIONE */
+.entity {
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 4px;
+    /* Manteniamo il radius per una transizione fluida */
+}
+
+/* 2. Stile per le entità quando sono EVIDENZIATE (con la classe .highlight) */
+.entity.highlight {
+    padding: 2px 4px;
+}
+
+.entity.person.highlight {
+    background-color: rgba(168, 224, 255, 0.6);
+    border-bottom: 2px solid #5da9e0;
+}
+
+.entity.place.highlight {
+    background-color: rgba(181, 255, 168, 0.6);
+    border-bottom: 2px solid #5de073;
+}
+
+.entity.role.highlight {
+    background-color: rgba(255, 239, 168, 0.6);
+    border-bottom: 2px solid #e0c85d;
+}
+
+.entity.organization.highlight {
+    background-color: rgba(255, 194, 168, 0.6);
+    border-bottom: 2px solid #e0835d;
+}
+
+.entity.ship.highlight {
+    background-color: rgba(210, 190, 255, 0.6);
+    border-bottom: 2px solid #8e6ee0;
+}
+
+.entity.date.highlight {
+    background-color: rgba(200, 200, 200, 0.6);
+    border-bottom: 2px solid #888;
+}
+
+
+/* 3. Stili per i bottoni di controllo */
+#interactive-controls {
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+#interactive-controls h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+}
+
+.phenomenon-btn,
+.toggle-btn {
+    margin: 4px 2px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.phenomenon-btn:hover,
+.toggle-btn:hover {
+    background-color: #eef;
+    border-color: #99c;
+}
+
+/* Stile per i bottoni QUANDO SONO ATTIVI */
+.phenomenon-btn.active-btn {
+    background-color: #4a69bd;
+    color: white;
+    border-color: #4a69bd;
+}
+
+#toggle-abbr.active-btn {
+    background-color: #3c9d74;
+    color: white;
+    border-color: #3c9d74;
+}
+
+/* stile.css */
+
+/* --- IMPOSTAZIONE GLOBALE PER LAYOUT A TUTTA PAGINA --- */
+html,
+body {
+    height: 100%;
+    /* Fa in modo che html e body occupino tutta l'altezza */
+    margin: 0;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fdfdfd;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* Organizza header, container e footer verticalmente */
+}
+
+header,
+footer {
+    /* Riduciamo il flex-shrink per evitare che si rimpiccioliscano */
+    flex-shrink: 0;
+    text-align: center;
+    padding: 1em;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    border-bottom: none;
+    margin-top: auto;
+    /* Spinge il footer in fondo */
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #2c3e50;
+}
+
+/* --- IL CONTENITORE PRINCIPALE --- */
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Evitiamo che le colonne vadano a capo */
+    padding: 1em;
+    /* CHIAVE: Fa in modo che il container occupi tutto lo spazio verticale rimanente */
+    flex-grow: 1;
+    /* CHIAVE: Permette al contenuto di andare in overflow se necessario */
+    overflow: hidden;
+}
+
+.metadata-panel {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    padding-right: 1.5em;
+    /* CHIAVE: Aggiunge una barra di scorrimento se il pannello dei metadati è troppo lungo */
+    overflow-y: auto;
+}
+
+/* --- IL PANNELLO DEL CONTENUTO (FACSIMILE E TRASCRIZIONE) --- */
+.content-panel {
+    flex: 3;
+    min-width: 600px;
+    display: flex;
+    /* CHIAVE: Anche questo pannello deve poter crescere */
+    flex-grow: 1;
+}
+
+/* --- LE COLONNE INDIVIDUALI --- */
+.column {
+    padding: 0 1em;
+    /* CHIAVE: Diamo a ogni colonna una propria barra di scorrimento verticale */
+    overflow-y: auto;
+}
+
+.facsimile-column {
+    flex: 1;
+}
+
+.transcription-column {
+    flex: 1;
+}
+
+.facsimile-image img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+
+/* --- Stili per l'interattività (invariati ma riportati per completezza) --- */
+.entity {
+    transition: background-color 0.3s, border-bottom 0.3s;
+    border-radius: 4px;
+}
+
+.entity.highlight {
+    padding: 2px 4px;
+}
+
+.entity.person.highlight {
+    background-color: rgba(168, 224, 255, 0.6);
+    border-bottom: 2px solid #5da9e0;
+}
+
+.entity.place.highlight {
+    background-color: rgba(181, 255, 168, 0.6);
+    border-bottom: 2px solid #5de073;
+}
+
+.entity.role.highlight {
+    background-color: rgba(255, 239, 168, 0.6);
+    border-bottom: 2px solid #e0c85d;
+}
+
+.entity.organization.highlight {
+    background-color: rgba(255, 194, 168, 0.6);
+    border-bottom: 2px solid #e0835d;
+}
+
+.entity.ship.highlight {
+    background-color: rgba(210, 190, 255, 0.6);
+    border-bottom: 2px solid #8e6ee0;
+}
+
+.entity.date.highlight {
+    background-color: rgba(200, 200, 200, 0.6);
+    border-bottom: 2px solid #888;
+}
+
+#interactive-controls {
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+#interactive-controls h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+}
+
+.phenomenon-btn,
+.toggle-btn {
+    margin: 4px 2px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.phenomenon-btn:hover,
+.toggle-btn:hover {
+    background-color: #eef;
+    border-color: #99c;
+}
+
+.phenomenon-btn.active-btn,
+#toggle-abbr.active-btn {
+    color: white;
+    border-color: #4a69bd;
+    background-color: #4a69bd;
+}
+
+#toggle-abbr.active-btn {
+    background-color: #3c9d74;
+    border-color: #3c9d74;
+}
+
+/* Stile per l'evidenziazione temporanea della riga */
+.line-anchor.highlight-yellow {
+    /* Un colore di sfondo giallo ben visibile */
+    background-color: rgba(255, 255, 0, 0.7);
+
+    /* Aggiungiamo un'ombra per farlo risaltare ancora di più */
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.9);
+
+    /* La transizione rende la scomparsa dell'evidenziazione più fluida */
+    transition: background-color 1.5s ease-out, box-shadow 1.5s ease-out;
+}

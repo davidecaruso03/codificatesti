@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="trasformazione.xsl"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xml:lang="it"
+      xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>
+            La Rassegna Settimanale, Volume 6, Fascicolo 144
+                        </title>
+                        <respStmt>
+                              <resp>Codifica TEI realizzata da:</resp>
+                              <name xml:id="DCaruso">Davide Caruso</name>
+                        </respStmt>
+                        <sponsor>Università di Pisa</sponsor>
+                  </titleStmt>
+
+                  <publicationStmt>
+                        <publisher>Università di Pisa</publisher>
+                        <pubPlace>Pisa</pubPlace>
+                        <date>2025</date>
+                        <availability status="free">
+                              <p>L'edizione digitale è consultabile liberamente</p>
+                        </availability>
+                  </publicationStmt>
+
+                  <seriesStmt>
+                        <title>Edizione elettronica della rivista "La Rassegna Settimanale"</title>
+                        <respStmt>
+                              <resp>coordinata dal professor</resp>
+                              <name>Angelo Mario Del Grosso</name>
+                        </respStmt>
+                  </seriesStmt>
+
+                  <notesStmt>
+                        <note>La digitalizzazione e l'indicizzazione della Rassegna settimanale è stata realizzata nell'ambito delle iniziative previste per il Centenario della morte di Leopoldo Franchetti.</note>
+                        <note>La scansione digitale dell'intera rivista è consultabile sul sito: <ref target="https://rassegnasettimanale.animi.it">https://rassegnasettimanale.animi.it</ref>
+                        </note>
+                  </notesStmt>
+
+                  <sourceDesc>
+                        <biblStruct type="article">
+                              <analytic xml:id="art1">
+                                    <title level="a">Corrispondenza da Castellammare</title>
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <analytic xml:id="art2">
+                                    <title level="a">Primavera</title>
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <analytic xml:id="bibliografia1">
+                                    <author>
+                                          <persName>Severino Febrari</persName>
+                                    </author>
+                                    <title>A proposito di Olimpo da Sassoferrato.</title>
+                                    <date>1880</date>
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <analytic xml:id="bibliografia2">
+                                    <author>
+                                          <persName>Emilio Comba</persName>
+                                    </author>
+                                    <title>Valdo ed i Valdesi avanti la Riforma. Cenno Storico</title>
+                                    <date>1880</date>
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <analytic xml:id="notizia1">
+                                    <title>Periodici inglesi</title>
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <analytic xml:id="notizia2">
+                                    <title>Periodici francesi</title>
+                                    <textLang mainLang="it">Italiano</textLang>
+                              </analytic>
+                              <monogr>
+                                    <title>La Rassegna Settimanale di Politica, Scienze, Lettere ed Arti</title>
+                                    <textLang mainLang="it">Italiano</textLang>
+                                    <respStmt>
+                                          <resp>Fondata da</resp>
+                                          <name>Leopoldo Franchetti</name>
+                                          <name>Sydney Sonnino</name>
+                                    </respStmt>
+                                    <imprint>
+                                          <pubPlace>Roma</pubPlace>
+                                          <publisher>Tipografia Barbera</publisher>
+                                          <date when="03-10-1880">3 ottobre 1880</date>
+                                    </imprint>
+                                    <biblScope unit="volume">6</biblScope>
+                                    <biblScope unit="article">144</biblScope>
+                                    <biblScope unit="page">214, 215, 216, 221, 222, 226</biblScope>
+                              </monogr>
+                        </biblStruct>
+                  </sourceDesc>
+            </fileDesc>
+
+            <encodingDesc>
+                  <projectDesc>
+                        <p>Il testo rispetta le linee guida della TEI ed è stato realizzato per il corso di Codifica Di Testi dell'<orgName>Università di Pisa</orgName>
+                        </p>
+                  </projectDesc>
+            </encodingDesc>
+      </teiHeader>
+
+      <facsimile>
+
+            <!--PAGINA 9 -->
+            <surface xml:id="pag9" n="9">
+                  <graphic url='pag9.jpg' width='2350.27272px' height='3432.27272px' />
+                  <zone xml:id="titolo_castellammare" ulx="1394" uly="1102" lrx="2027" lry="1130" />
+                  <zone xml:id="sottotitolo_castellammare" ulx="1498" uly="1139" lrx="1914" lry="1161" />
+                  <zone xml:id="riga1_castellammare" ulx="1259" uly="1213" lrx="2220" lry="1246" />
+                  <zone xml:id="riga2_castellammare" ulx="1211" uly="1242" lrx="2220" lry="1274" />
+                  <zone xml:id="riga3_castellammare" ulx="1211" uly="1271" lrx="2220" lry="1302" />
+                  <zone xml:id="riga4_castellammare" ulx="1211" uly="1299" lrx="2220" lry="1331" />
+                  <zone xml:id="riga5_castellammare" ulx="1211" uly="1327" lrx="2220" lry="1359" />
+                  <zone xml:id="riga6_castellammare" ulx="1211" uly="1356" lrx="2220" lry="1388" />
+                  <zone xml:id="riga7_castellammare" ulx="1211" uly="1384" lrx="2220" lry="1417" />
+                  <zone xml:id="riga8_castellammare" ulx="1211" uly="1413" lrx="2220" lry="1445" />
+                  <zone xml:id="riga9_castellammare" ulx="1211" uly="1442" lrx="2220" lry="1473" />
+                  <zone xml:id="riga10_castellammare" ulx="1211" uly="1470" lrx="2220" lry="1502" />
+                  <zone xml:id="riga11_castellammare" ulx="1211" uly="1498" lrx="2220" lry="1530" />
+                  <zone xml:id="riga12_castellammare" ulx="1211" uly="1527" lrx="2220" lry="1559" />
+                  <zone xml:id="riga13_castellammare" ulx="1211" uly="1555" lrx="2220" lry="1587" />
+                  <zone xml:id="riga14_castellammare" ulx="1211" uly="1583" lrx="2220" lry="1616" />
+                  <zone xml:id="riga15_castellammare" ulx="1211" uly="1612" lrx="2220" lry="1644" />
+                  <zone xml:id="riga16_castellammare" ulx="1211" uly="1641" lrx="2220" lry="1672" />
+                  <zone xml:id="riga17_castellammare" ulx="1211" uly="1669" lrx="2220" lry="1701" />
+                  <zone xml:id="riga18_castellammare" ulx="1211" uly="1697" lrx="2220" lry="1729" />
+                  <zone xml:id="riga19_castellammare" ulx="1211" uly="1726" lrx="2220" lry="1757" />
+                  <zone xml:id="riga20_castellammare" ulx="1211" uly="1754" lrx="2220" lry="1786" />
+                  <zone xml:id="riga21_castellammare" ulx="1211" uly="1782" lrx="2220" lry="1815" />
+                  <zone xml:id="riga22_castellammare" ulx="1211" uly="1811" lrx="2220" lry="1843" />
+                  <zone xml:id="riga23_castellammare" ulx="1211" uly="1839" lrx="2220" lry="1871" />
+                  <zone xml:id="riga24_castellammare" ulx="1211" uly="1867" lrx="2220" lry="1900" />
+                  <zone xml:id="riga25_castellammare" ulx="1211" uly="1896" lrx="2220" lry="1928" />
+                  <zone xml:id="riga26_castellammare" ulx="1211" uly="1924" lrx="2220" lry="1956" />
+                  <zone xml:id="riga27_castellammare" ulx="1211" uly="1952" lrx="2220" lry="1984" />
+                  <zone xml:id="riga28_castellammare" ulx="1211" uly="1981" lrx="2220" lry="2013" />
+                  <zone xml:id="riga29_castellammare" ulx="1211" uly="2009" lrx="2220" lry="2042" />
+                  <zone xml:id="riga30_castellammare" ulx="1211" uly="2038" lrx="2220" lry="2069" />
+                  <zone xml:id="riga31_castellammare" ulx="1211" uly="2066" lrx="2220" lry="2098" />
+                  <zone xml:id="riga32_castellammare" ulx="1211" uly="2094" lrx="2220" lry="2126" />
+                  <zone xml:id="riga33_castellammare" ulx="1259" uly="2135" lrx="2220" lry="2168" />
+                  <zone xml:id="riga34_castellammare" ulx="1211" uly="2164" lrx="2220" lry="2195" />
+                  <zone xml:id="riga35_castellammare" ulx="1211" uly="2192" lrx="2220" lry="2224" />
+                  <zone xml:id="riga36_castellammare" ulx="1211" uly="2220" lrx="2220" lry="2253" />
+                  <zone xml:id="riga37_castellammare" ulx="1259" uly="2261" lrx="2220" lry="2294" />
+                  <zone xml:id="riga38_castellammare" ulx="1211" uly="2290" lrx="2220" lry="2322" />
+                  <zone xml:id="riga39_castellammare" ulx="1211" uly="2318" lrx="2220" lry="2350" />
+                  <zone xml:id="riga40_castellammare" ulx="1211" uly="2346" lrx="2220" lry="2379" />
+                  <zone xml:id="riga41_castellammare" ulx="1211" uly="2375" lrx="2220" lry="2407" />
+                  <zone xml:id="riga42_castellammare" ulx="1211" uly="2403" lrx="2220" lry="2435" />
+                  <zone xml:id="riga43_castellammare" ulx="1211" uly="2431" lrx="2220" lry="2464" />
+                  <zone xml:id="riga44_castellammare" ulx="1211" uly="2460" lrx="2220" lry="2492" />
+                  <zone xml:id="riga45_castellammare" ulx="1211" uly="2488" lrx="2220" lry="2520" />
+                  <zone xml:id="riga46_castellammare" ulx="1211" uly="2516" lrx="2220" lry="2548" />
+                  <zone xml:id="riga47_castellammare" ulx="1211" uly="2545" lrx="2220" lry="2577" />
+                  <zone xml:id="riga48_castellammare" ulx="1211" uly="2573" lrx="2220" lry="2605" />
+                  <zone xml:id="riga49_castellammare" ulx="1211" uly="2601" lrx="2220" lry="2634" />
+                  <zone xml:id="riga50_castellammare" ulx="1211" uly="2630" lrx="2220" lry="2662" />
+                  <zone xml:id="riga51_castellammare" ulx="1211" uly="2658" lrx="2220" lry="2690" />
+                  <zone xml:id="riga52_castellammare" ulx="1211" uly="2686" lrx="2220" lry="2719" />
+                  <zone xml:id="riga53_castellammare" ulx="1211" uly="2715" lrx="2220" lry="2747" />
+                  <zone xml:id="riga54_castellammare" ulx="1211" uly="2743" lrx="2220" lry="2775" />
+                  <zone xml:id="riga55_castellammare" ulx="1211" uly="2771" lrx="2220" lry="2804" />
+                  <zone xml:id="riga56_castellammare" ulx="1211" uly="2800" lrx="2220" lry="2832" />
+
+            </surface>
+
+
+            <!-- PAGINA 10 -->
+            <surface>
+                  <graphic url='pag10.jpg' width='2350.27272px' height='3432.27272px' />
+                  <zone xml:id="riga57_castellammare" ulx="144" uly="119" lrx="1144" lry="151" />
+                  <zone xml:id="riga58_castellammare" ulx="100" uly="148" lrx="1144" lry="180" />
+                  <zone xml:id="riga59_castellammare" ulx="100" uly="176" lrx="1144" lry="208" />
+                  <zone xml:id="riga60_castellammare" ulx="100" uly="205" lrx="1144" lry="237" />
+                  <zone xml:id="riga61_castellammare" ulx="100" uly="233" lrx="1144" lry="265" />
+                  <zone xml:id="riga62_castellammare" ulx="100" uly="262" lrx="1144" lry="294" />
+                  <zone xml:id="riga63_castellammare" ulx="100" uly="291" lrx="1144" lry="322" />
+                  <zone xml:id="riga64_castellammare" ulx="100" uly="319" lrx="1144" lry="351" />
+                  <zone xml:id="riga65_castellammare" ulx="100" uly="348" lrx="1144" lry="379" />
+                  <zone xml:id="riga66_castellammare" ulx="100" uly="376" lrx="1144" lry="408" />
+                  <zone xml:id="riga67_castellammare" ulx="100" uly="404" lrx="1144" lry="436" />
+                  <zone xml:id="riga68_castellammare" ulx="100" uly="433" lrx="1144" lry="465" />
+                  <zone xml:id="riga69_castellammare" ulx="144" uly="474" lrx="1144" lry="505" />
+                  <zone xml:id="riga70_castellammare" ulx="100" uly="502" lrx="1144" lry="534" />
+                  <zone xml:id="riga71_castellammare" ulx="100" uly="531" lrx="1144" lry="563" />
+                  <zone xml:id="riga72_castellammare" ulx="100" uly="559" lrx="1144" lry="591" />
+                  <zone xml:id="riga73_castellammare" ulx="100" uly="587" lrx="1144" lry="619" />
+                  <zone xml:id="riga74_castellammare" ulx="144" uly="628" lrx="1144" lry="660" />
+                  <zone xml:id="riga75_castellammare" ulx="100" uly="657" lrx="1144" lry="688" />
+                  <zone xml:id="riga76_castellammare" ulx="100" uly="685" lrx="1144" lry="717" />
+                  <zone xml:id="riga77_castellammare" ulx="100" uly="713" lrx="1144" lry="746" />
+                  <zone xml:id="riga78_castellammare" ulx="100" uly="742" lrx="1144" lry="774" />
+                  <zone xml:id="riga79_castellammare" ulx="100" uly="771" lrx="1144" lry="802" />
+                  <zone xml:id="riga80_castellammare" ulx="100" uly="799" lrx="1144" lry="831" />
+                  <zone xml:id="riga81_castellammare" ulx="100" uly="828" lrx="1144" lry="859" />
+                  <zone xml:id="riga82_castellammare" ulx="100" uly="856" lrx="1144" lry="888" />
+                  <zone xml:id="riga83_castellammare" ulx="100" uly="885" lrx="1144" lry="916" />
+                  <zone xml:id="riga84_castellammare" ulx="100" uly="913" lrx="1144" lry="945" />
+                  <zone xml:id="riga85_castellammare" ulx="100" uly="942" lrx="1144" lry="974" />
+                  <zone xml:id="riga86_castellammare" ulx="100" uly="970" lrx="1144" lry="1002" />
+                  <zone xml:id="riga87_castellammare" ulx="100" uly="999" lrx="1144" lry="1031" />
+                  <zone xml:id="riga88_castellammare" ulx="100" uly="1027" lrx="1144" lry="1059" />
+                  <zone xml:id="riga89_castellammare" ulx="100" uly="1056" lrx="1144" lry="1088" />
+                  <zone xml:id="riga90_castellammare" ulx="100" uly="1084" lrx="1144" lry="1116" />
+                  <zone xml:id="riga91_castellammare" ulx="144" uly="1126" lrx="1144" lry="1158" />
+                  <zone xml:id="riga92_castellammare" ulx="100" uly="1154" lrx="1144" lry="1186" />
+                  <zone xml:id="riga93_castellammare" ulx="100" uly="1183" lrx="1144" lry="1215" />
+                  <zone xml:id="riga94_castellammare" ulx="100" uly="1211" lrx="1144" lry="1243" />
+                  <zone xml:id="riga95_castellammare" ulx="100" uly="1239" lrx="1144" lry="1271" />
+                  <zone xml:id="riga96_castellammare" ulx="100" uly="1268" lrx="1144" lry="1300" />
+                  <zone xml:id="riga97_castellammare" ulx="100" uly="1297" lrx="1144" lry="1328" />
+                  <zone xml:id="riga98_castellammare" ulx="100" uly="1325" lrx="1144" lry="1357" />
+                  <zone xml:id="riga99_castellammare" ulx="100" uly="1353" lrx="1144" lry="1385" />
+                  <zone xml:id="riga100_castellammare" ulx="100" uly="1382" lrx="1144" lry="1414" />
+                  <zone xml:id="riga101_castellammare" ulx="100" uly="1411" lrx="1144" lry="1443" />
+                  <zone xml:id="riga102_castellammare" ulx="100" uly="1439" lrx="1144" lry="1471" />
+                  <zone xml:id="riga103_castellammare" ulx="144" uly="1480" lrx="1144" lry="1512" />
+                  <zone xml:id="riga104_castellammare" ulx="100" uly="1508" lrx="1144" lry="1540" />
+                  <zone xml:id="riga105_castellammare" ulx="100" uly="1537" lrx="1144" lry="1569" />
+                  <zone xml:id="riga106_castellammare" ulx="100" uly="1565" lrx="1144" lry="1597" />
+                  <zone xml:id="riga107_castellammare" ulx="100" uly="1594" lrx="1144" lry="1625" />
+                  <zone xml:id="riga108_castellammare" ulx="100" uly="1622" lrx="1144" lry="1654" />
+                  <zone xml:id="riga109_castellammare" ulx="100" uly="1651" lrx="1144" lry="1683" />
+                  <zone xml:id="riga110_castellammare" ulx="100" uly="1680" lrx="1144" lry="1711" />
+                  <zone xml:id="riga111_castellammare" ulx="100" uly="1708" lrx="1144" lry="1740" />
+                  <zone xml:id="riga112_castellammare" ulx="144" uly="1750" lrx="1144" lry="1781" />
+                  <zone xml:id="riga113_castellammare" ulx="100" uly="1779" lrx="1144" lry="1810" />
+                  <zone xml:id="riga114_castellammare" ulx="144" uly="1820" lrx="1144" lry="1852" />
+                  <zone xml:id="riga115_castellammare" ulx="100" uly="1849" lrx="1144" lry="1880" />
+                  <zone xml:id="riga116_castellammare" ulx="100" uly="1877" lrx="1144" lry="1909" />
+                  <zone xml:id="riga117_castellammare" ulx="100" uly="1905" lrx="1144" lry="1937" />
+                  <zone xml:id="riga118_castellammare" ulx="100" uly="1934" lrx="1144" lry="1966" />
+                  <zone xml:id="riga119_castellammare" ulx="100" uly="1963" lrx="1144" lry="1994" />
+                  <zone xml:id="riga120_castellammare" ulx="100" uly="1991" lrx="1144" lry="2023" />
+                  <zone xml:id="riga121_castellammare" ulx="100" uly="2020" lrx="1144" lry="2052" />
+                  <zone xml:id="riga122_castellammare" ulx="100" uly="2048" lrx="1144" lry="2080" />
+                  <zone xml:id="riga123_castellammare" ulx="100" uly="2077" lrx="1144" lry="2109" />
+                  <zone xml:id="riga124_castellammare" ulx="144" uly="2119" lrx="1144" lry="2150" />
+                  <zone xml:id="riga125_castellammare" ulx="100" uly="2147" lrx="1144" lry="2179" />
+                  <zone xml:id="riga126_castellammare" ulx="100" uly="2176" lrx="1144" lry="2208" />
+                  <zone xml:id="riga127_castellammare" ulx="100" uly="2205" lrx="1144" lry="2236" />
+                  <zone xml:id="riga128_castellammare" ulx="100" uly="2233" lrx="1144" lry="2265" />
+                  <zone xml:id="riga129_castellammare" ulx="1195" uly="119" lrx="2216" lry="151" />
+                  <zone xml:id="riga130_castellammare" ulx="1195" uly="148" lrx="2216" lry="180" />
+                  <zone xml:id="riga131_castellammare" ulx="1195" uly="176" lrx="2216" lry="208" />
+                  <zone xml:id="riga132_castellammare" ulx="1195" uly="205" lrx="2216" lry="237" />
+                  <zone xml:id="riga133_castellammare" ulx="1195" uly="233" lrx="2216" lry="265" />
+                  <zone xml:id="riga134_castellammare" ulx="1244" uly="274" lrx="2216" lry="305" />
+                  <zone xml:id="riga135_castellammare" ulx="1195" uly="302" lrx="2216" lry="334" />
+                  <zone xml:id="riga136_castellammare" ulx="1195" uly="331" lrx="2216" lry="362" />
+                  <zone xml:id="riga137_castellammare" ulx="1195" uly="359" lrx="2216" lry="391" />
+                  <zone xml:id="riga138_castellammare" ulx="1195" uly="388" lrx="2216" lry="419" />
+                  <zone xml:id="riga139_castellammare" ulx="1195" uly="416" lrx="2216" lry="448" />
+                  <zone xml:id="riga140_castellammare" ulx="1195" uly="445" lrx="2216" lry="477" />
+                  <zone xml:id="riga141_castellammare" ulx="1195" uly="473" lrx="2216" lry="505" />
+                  <zone xml:id="riga142_castellammare" ulx="1195" uly="502" lrx="2216" lry="534" />
+                  <zone xml:id="titolo_primavera" ulx="1562" uly="562" lrx="1898" lry="584" />
+                  <zone xml:id="riga1_primavera" ulx="1244" uly="601" lrx="2216" lry="633" />
+                  <zone xml:id="riga2_primavera" ulx="1195" uly="630" lrx="2216" lry="662" />
+                  <zone xml:id="riga3_primavera" ulx="1195" uly="658" lrx="2216" lry="690" />
+                  <zone xml:id="riga4_primavera" ulx="1195" uly="687" lrx="2216" lry="718" />
+                  <zone xml:id="riga5_primavera" ulx="1195" uly="715" lrx="2216" lry="747" />
+                  <zone xml:id="riga6_primavera" ulx="1195" uly="744" lrx="2216" lry="776" />
+                  <zone xml:id="riga7_primavera" ulx="1195" uly="772" lrx="2216" lry="804" />
+                  <zone xml:id="riga8_primavera" ulx="1195" uly="801" lrx="2216" lry="832" />
+                  <zone xml:id="riga9_primavera" ulx="1195" uly="829" lrx="2216" lry="861" />
+                  <zone xml:id="riga10_primavera" ulx="1195" uly="858" lrx="2216" lry="890" />
+                  <zone xml:id="riga11_primavera" ulx="1195" uly="886" lrx="2216" lry="918" />
+                  <zone xml:id="riga12_primavera" ulx="1195" uly="914" lrx="2216" lry="946" />
+                  <zone xml:id="riga13_primavera" ulx="1195" uly="943" lrx="2216" lry="975" />
+                  <zone xml:id="riga14_primavera" ulx="1195" uly="972" lrx="2216" lry="1003" />
+                  <zone xml:id="riga15_primavera" ulx="1195" uly="1000" lrx="2216" lry="1032" />
+                  <zone xml:id="riga16_primavera" ulx="1195" uly="1029" lrx="2216" lry="1060" />
+                  <zone xml:id="riga17_primavera" ulx="1195" uly="1057" lrx="2216" lry="1086" />
+                  <zone xml:id="riga18_primavera" ulx="1219" uly="1102" lrx="2216" lry="1132" />
+                  <zone xml:id="riga19_primavera" ulx="1195" uly="1131" lrx="2216" lry="1160" />
+                  <zone xml:id="riga20_primavera" ulx="1195" uly="1159" lrx="2216" lry="1188" />
+                  <zone xml:id="riga21_primavera" ulx="1195" uly="1187" lrx="2216" lry="1217" />
+                  <zone xml:id="riga22_primavera" ulx="1195" uly="1216" lrx="2216" lry="1246" />
+                  <zone xml:id="riga23_primavera" ulx="1195" uly="1245" lrx="2216" lry="1274" />
+                  <zone xml:id="riga24_primavera" ulx="1219" uly="1290" lrx="2216" lry="1318" />
+                  <zone xml:id="riga25_primavera" ulx="1195" uly="1319" lrx="2216" lry="1346" />
+                  <zone xml:id="riga26_primavera" ulx="1195" uly="1347" lrx="2216" lry="1375" />
+                  <zone xml:id="riga27_primavera" ulx="1195" uly="1376" lrx="2216" lry="1404" />
+                  <zone xml:id="riga28_primavera" ulx="1195" uly="1405" lrx="2216" lry="1433" />
+                  <zone xml:id="riga29_primavera" ulx="1195" uly="1433" lrx="2216" lry="1462" />
+                  <zone xml:id="riga30_primavera" ulx="1324" uly="1470" lrx="2216" lry="1496" />
+                  <zone xml:id="riga31_primavera" ulx="1324" uly="1499" lrx="2216" lry="1525" />
+                  <zone xml:id="riga32_primavera" ulx="1324" uly="1528" lrx="2216" lry="1554" />
+                  <zone xml:id="riga33_primavera" ulx="1324" uly="1557" lrx="2216" lry="1582" />
+
+            </surface>
+
+            <!-- PAGINA 11 -->
+            <surface>
+                  <graphic url='pag11.jpg' width='2350.27272px' height='3432.27272px' />
+                  <zone xml:id="riga34_primavera" ulx="105" uly="121" lrx="1091" lry="152" />
+                  <zone xml:id="riga35_primavera" ulx="62" uly="150" lrx="1091" lry="181" />
+                  <zone xml:id="riga36_primavera" ulx="62" uly="178" lrx="1091" lry="209" />
+                  <zone xml:id="riga37_primavera" ulx="62" uly="206" lrx="1091" lry="237" />
+                  <zone xml:id="riga38_primavera" ulx="62" uly="235" lrx="1091" lry="266" />
+                  <zone xml:id="riga39_primavera" ulx="62" uly="263" lrx="1091" lry="294" />
+                  <zone xml:id="riga40_primavera" ulx="62" uly="291" lrx="1091" lry="322" />
+                  <zone xml:id="riga41_primavera" ulx="62" uly="320" lrx="1091" lry="350" />
+                  <zone xml:id="riga42_primavera" ulx="62" uly="348" lrx="1091" lry="379" />
+                  <zone xml:id="riga43_primavera" ulx="105" uly="388" lrx="1091" lry="419" />
+                  <zone xml:id="riga44_primavera" ulx="62" uly="416" lrx="1091" lry="447" />
+                  <zone xml:id="riga45_primavera" ulx="62" uly="444" lrx="1091" lry="475" />
+                  <zone xml:id="riga46_primavera" ulx="62" uly="472" lrx="1091" lry="503" />
+                  <zone xml:id="riga47_primavera" ulx="62" uly="500" lrx="1091" lry="531" />
+                  <zone xml:id="riga48_primavera" ulx="62" uly="529" lrx="1091" lry="560" />
+                  <zone xml:id="riga49_primavera" ulx="62" uly="557" lrx="1091" lry="588" />
+                  <zone xml:id="riga50_primavera" ulx="105" uly="598" lrx="1091" lry="628" />
+                  <zone xml:id="riga51_primavera" ulx="62" uly="625" lrx="1091" lry="656" />
+                  <zone xml:id="riga52_primavera" ulx="62" uly="653" lrx="1091" lry="684" />
+                  <zone xml:id="riga53_primavera" ulx="62" uly="682" lrx="1091" lry="713" />
+                  <zone xml:id="riga54_primavera" ulx="62" uly="710" lrx="1091" lry="741" />
+                  <zone xml:id="riga55_primavera" ulx="62" uly="738" lrx="1091" lry="769" />
+                  <zone xml:id="riga56_primavera" ulx="62" uly="766" lrx="1091" lry="797" />
+                  <zone xml:id="riga57_primavera" ulx="105" uly="807" lrx="1091" lry="837" />
+                  <zone xml:id="riga58_primavera" ulx="62" uly="835" lrx="1091" lry="866" />
+                  <zone xml:id="riga59_primavera" ulx="62" uly="863" lrx="1091" lry="894" />
+                  <zone xml:id="riga60_primavera" ulx="105" uly="904" lrx="1091" lry="935" />
+                  <zone xml:id="riga61_primavera" ulx="62" uly="932" lrx="1091" lry="963" />
+                  <zone xml:id="riga62_primavera" ulx="62" uly="960" lrx="1091" lry="991" />
+                  <zone xml:id="riga63_primavera" ulx="62" uly="988" lrx="1091" lry="1020" />
+                  <zone xml:id="riga64_primavera" ulx="62" uly="1017" lrx="1091" lry="1050" />
+                  <zone xml:id="riga65_primavera" ulx="62" uly="1047" lrx="1091" lry="1079" />
+                  <zone xml:id="riga66_primavera" ulx="1148" uly="121" lrx="2169" lry="152" />
+                  <zone xml:id="riga67_primavera" ulx="1105" uly="150" lrx="2169" lry="180" />
+                  <zone xml:id="riga68_primavera" ulx="1148" uly="189" lrx="2169" lry="219" />
+                  <zone xml:id="riga69_primavera" ulx="1105" uly="217" lrx="2169" lry="248" />
+                  <zone xml:id="riga70_primavera" ulx="1105" uly="246" lrx="2169" lry="276" />
+                  <zone xml:id="riga71_primavera" ulx="1148" uly="286" lrx="2169" lry="317" />
+                  <zone xml:id="riga72_primavera" ulx="1105" uly="314" lrx="2169" lry="345" />
+                  <zone xml:id="riga73_primavera" ulx="1105" uly="342" lrx="2169" lry="373" />
+                  <zone xml:id="riga74_primavera" ulx="1105" uly="370" lrx="2169" lry="401" />
+                  <zone xml:id="riga75_primavera" ulx="1105" uly="398" lrx="2169" lry="429" />
+                  <zone xml:id="riga76_primavera" ulx="1148" uly="438" lrx="2169" lry="469" />
+                  <zone xml:id="riga77_primavera" ulx="1105" uly="466" lrx="2169" lry="497" />
+                  <zone xml:id="riga78_primavera" ulx="1105" uly="495" lrx="2169" lry="526" />
+                  <zone xml:id="riga79_primavera" ulx="1105" uly="523" lrx="2169" lry="554" />
+                  <zone xml:id="riga80_primavera" ulx="1105" uly="551" lrx="2169" lry="582" />
+                  <zone xml:id="riga81_primavera" ulx="1105" uly="580" lrx="2169" lry="611" />
+                  <zone xml:id="riga82_primavera" ulx="1148" uly="620" lrx="2169" lry="651" />
+                  <zone xml:id="riga83_primavera" ulx="1105" uly="648" lrx="2169" lry="679" />
+                  <zone xml:id="riga84_primavera" ulx="1105" uly="677" lrx="2169" lry="708" />
+                  <zone xml:id="riga85_primavera" ulx="1105" uly="705" lrx="2169" lry="736" />
+                  <zone xml:id="riga86_primavera" ulx="1148" uly="746" lrx="2169" lry="776" />
+                  <zone xml:id="riga87_primavera" ulx="1105" uly="764" lrx="2169" lry="795" />
+                  <zone xml:id="riga88_primavera" ulx="1968" uly="807" lrx="2169" lry="826" />
+
+
+            </surface>
+
+            <!-- PAGINA 17 -->
+            <surface>
+                  <graphic url='pag17.jpg' width='2350.27272px' height='3432.27272px' />
+
+                  <zone xml:id="titolo_ferrari" ulx="182" uly="342" lrx="322" lry="362" />
+                  <zone xml:id="riga1_ferrari" ulx="113" uly="439" lrx="489" lry="471" />
+                  <zone xml:id="riga2_ferrari" ulx="70" uly="468" lrx="489" lry="499" />
+                  <zone xml:id="riga3_ferrari" ulx="70" uly="496" lrx="489" lry="527" />
+                  <zone xml:id="riga4_ferrari" ulx="70" uly="524" lrx="489" lry="555" />
+                  <zone xml:id="riga5_ferrari" ulx="70" uly="553" lrx="489" lry="584" />
+                  <zone xml:id="riga6_ferrari" ulx="70" uly="581" lrx="489" lry="612" />
+                  <zone xml:id="riga7_ferrari" ulx="70" uly="609" lrx="489" lry="640" />
+                  <zone xml:id="riga8_ferrari" ulx="70" uly="638" lrx="489" lry="669" />
+                  <zone xml:id="riga9_ferrari" ulx="70" uly="666" lrx="489" lry="697" />
+                  <zone xml:id="riga10_ferrari" ulx="70" uly="694" lrx="489" lry="725" />
+                  <zone xml:id="riga11_ferrari" ulx="70" uly="722" lrx="489" lry="754" />
+                  <zone xml:id="riga12_ferrari" ulx="70" uly="751" lrx="489" lry="782" />
+                  <zone xml:id="riga13_ferrari" ulx="70" uly="779" lrx="489" lry="810" />
+                  <zone xml:id="riga14_ferrari" ulx="70" uly="807" lrx="489" lry="839" />
+                  <zone xml:id="riga15_ferrari" ulx="70" uly="836" lrx="489" lry="867" />
+                  <zone xml:id="riga16_ferrari" ulx="70" uly="864" lrx="489" lry="895" />
+                  <zone xml:id="riga17_ferrari" ulx="70" uly="892" lrx="489" lry="923" />
+                  <zone xml:id="riga18_ferrari" ulx="70" uly="921" lrx="489" lry="952" />
+                  <zone xml:id="riga19_ferrari" ulx="70" uly="949" lrx="489" lry="980" />
+                  <zone xml:id="riga20_ferrari" ulx="70" uly="977" lrx="489" lry="1008" />
+                  <zone xml:id="riga21_ferrari" ulx="70" uly="1006" lrx="489" lry="1037" />
+                  <zone xml:id="riga22_ferrari" ulx="70" uly="1034" lrx="489" lry="1065" />
+                  <zone xml:id="riga23_ferrari" ulx="70" uly="1062" lrx="489" lry="1093" />
+                  <zone xml:id="riga24_ferrari" ulx="70" uly="1091" lrx="489" lry="1122" />
+                  <zone xml:id="riga25_ferrari" ulx="70" uly="1119" lrx="489" lry="1150" />
+                  <zone xml:id="riga26_ferrari" ulx="70" uly="1147" lrx="489" lry="1179" />
+                  <zone xml:id="riga27_ferrari" ulx="70" uly="1176" lrx="489" lry="1207" />
+                  <zone xml:id="riga28_ferrari" ulx="70" uly="1204" lrx="489" lry="1235" />
+                  <zone xml:id="riga29_ferrari" ulx="70" uly="1232" lrx="489" lry="1263" />
+                  <zone xml:id="riga30_ferrari" ulx="70" uly="1261" lrx="489" lry="1292" />
+                  <zone xml:id="riga31_ferrari" ulx="113" uly="1301" lrx="489" lry="1332" />
+                  <zone xml:id="riga32_ferrari" ulx="70" uly="1329" lrx="489" lry="1360" />
+                  <zone xml:id="riga33_ferrari" ulx="70" uly="1358" lrx="489" lry="1389" />
+                  <zone xml:id="riga34_ferrari" ulx="70" uly="1386" lrx="489" lry="1417" />
+                  <zone xml:id="riga35_ferrari" ulx="70" uly="1414" lrx="489" lry="1445" />
+                  <zone xml:id="riga36_ferrari" ulx="70" uly="1443" lrx="489" lry="1474" />
+                  <zone xml:id="riga37_ferrari" ulx="70" uly="1471" lrx="489" lry="1502" />
+                  <zone xml:id="riga38_ferrari" ulx="70" uly="1499" lrx="489" lry="1530" />
+                  <zone xml:id="riga39_ferrari" ulx="70" uly="1527" lrx="489" lry="1559" />
+                  <zone xml:id="riga40_ferrari" ulx="70" uly="1556" lrx="489" lry="1587" />
+                  <zone xml:id="riga41_ferrari" ulx="70" uly="1584" lrx="489" lry="1615" />
+                  <zone xml:id="riga42_ferrari" ulx="411" uly="1614" lrx="489" lry="1634" />
+                  <zone xml:id="riga1_comba" ulx="569" uly="139" lrx="946" lry="171" />
+                  <zone xml:id="riga2_comba" ulx="525" uly="168" lrx="946" lry="199" />
+                  <zone xml:id="riga3_comba" ulx="525" uly="196" lrx="946" lry="227" />
+                  <zone xml:id="riga4_comba" ulx="525" uly="225" lrx="946" lry="256" />
+                  <zone xml:id="riga5_comba" ulx="525" uly="253" lrx="946" lry="284" />
+                  <zone xml:id="riga6_comba" ulx="525" uly="281" lrx="946" lry="312" />
+                  <zone xml:id="riga7_comba" ulx="525" uly="310" lrx="946" lry="341" />
+                  <zone xml:id="riga8_comba" ulx="525" uly="338" lrx="946" lry="369" />
+                  <zone xml:id="riga9_comba" ulx="525" uly="366" lrx="946" lry="397" />
+                  <zone xml:id="riga10_comba" ulx="525" uly="395" lrx="946" lry="426" />
+                  <zone xml:id="riga11_comba" ulx="525" uly="423" lrx="946" lry="454" />
+                  <zone xml:id="riga12_comba" ulx="525" uly="451" lrx="946" lry="482" />
+                  <zone xml:id="riga13_comba" ulx="525" uly="480" lrx="946" lry="511" />
+                  <zone xml:id="riga14_comba" ulx="525" uly="508" lrx="946" lry="539" />
+                  <zone xml:id="riga15_comba" ulx="525" uly="536" lrx="946" lry="568" />
+                  <zone xml:id="riga16_comba" ulx="525" uly="565" lrx="946" lry="596" />
+                  <zone xml:id="riga17_comba" ulx="525" uly="593" lrx="946" lry="624" />
+                  <zone xml:id="riga18_comba" ulx="525" uly="622" lrx="946" lry="653" />
+                  <zone xml:id="riga19_comba" ulx="525" uly="650" lrx="946" lry="681" />
+                  <zone xml:id="riga20_comba" ulx="525" uly="678" lrx="946" lry="709" />
+                  <zone xml:id="riga21_comba" ulx="525" uly="707" lrx="946" lry="738" />
+                  <zone xml:id="riga22_comba" ulx="569" uly="747" lrx="946" lry="778" />
+                  <zone xml:id="riga23_comba" ulx="525" uly="775" lrx="946" lry="806" />
+                  <zone xml:id="riga24_comba" ulx="525" uly="803" lrx="946" lry="834" />
+                  <zone xml:id="riga25_comba" ulx="525" uly="832" lrx="946" lry="863" />
+                  <zone xml:id="riga26_comba" ulx="525" uly="860" lrx="946" lry="891" />
+                  <zone xml:id="riga27_comba" ulx="525" uly="888" lrx="946" lry="919" />
+                  <zone xml:id="riga28_comba" ulx="525" uly="917" lrx="946" lry="948" />
+                  <zone xml:id="riga29_comba" ulx="525" uly="945" lrx="946" lry="976" />
+                  <zone xml:id="riga30_comba" ulx="525" uly="973" lrx="946" lry="1004" />
+                  <zone xml:id="riga31_comba" ulx="525" uly="1002" lrx="946" lry="1033" />
+                  <zone xml:id="riga32_comba" ulx="525" uly="1031" lrx="946" lry="1062" />
+                  <zone xml:id="riga33_comba" ulx="525" uly="1059" lrx="946" lry="1090" />
+                  <zone xml:id="riga34_comba" ulx="525" uly="1087" lrx="946" lry="1118" />
+                  <zone xml:id="riga35_comba" ulx="525" uly="1116" lrx="946" lry="1147" />
+                  <zone xml:id="riga36_comba" ulx="525" uly="1144" lrx="946" lry="1175" />
+                  <zone xml:id="riga37_comba" ulx="525" uly="1173" lrx="946" lry="1204" />
+                  <zone xml:id="riga38_comba" ulx="525" uly="1201" lrx="946" lry="1232" />
+                  <zone xml:id="riga39_comba" ulx="525" uly="1229" lrx="946" lry="1260" />
+                  <zone xml:id="riga40_comba" ulx="525" uly="1258" lrx="946" lry="1289" />
+                  <zone xml:id="riga41_comba" ulx="525" uly="1286" lrx="946" lry="1317" />
+                  <zone xml:id="riga42_comba" ulx="525" uly="1314" lrx="946" lry="1345" />
+                  <zone xml:id="riga43_comba" ulx="525" uly="1343" lrx="946" lry="1374" />
+                  <zone xml:id="riga44_comba" ulx="525" uly="1371" lrx="946" lry="1402" />
+                  <zone xml:id="riga45_comba" ulx="525" uly="1399" lrx="946" lry="1430" />
+                  <zone xml:id="riga46_comba" ulx="525" uly="1428" lrx="946" lry="1459" />
+                  <zone xml:id="riga47_comba" ulx="525" uly="1456" lrx="946" lry="1487" />
+                  <zone xml:id="riga48_comba" ulx="525" uly="1484" lrx="946" lry="1515" />
+                  <zone xml:id="riga49_comba" ulx="525" uly="1513" lrx="946" lry="1544" />
+                  <zone xml:id="riga50_comba" ulx="525" uly="1541" lrx="946" lry="1572" />
+                  <zone xml:id="riga51_comba" ulx="525" uly="1569" lrx="946" lry="1600" />
+                  <zone xml:id="riga52_comba" ulx="525" uly="1598" lrx="946" lry="1629" />
+                  <zone xml:id="riga53_comba" ulx="525" uly="1626" lrx="946" lry="1657" />
+                  <zone xml:id="riga54_comba" ulx="525" uly="1654" lrx="946" lry="1685" />
+                  <zone xml:id="riga55_comba" ulx="525" uly="1683" lrx="946" lry="1714" />
+            </surface>
+
+
+            <!-- PAGINA 18 -->
+            <surface>
+                  <graphic url='pag18.jpg' width='2350.27272px' height='3432.27272px' />
+                  <zone xml:id="riga56_comba" ulx="110" uly="79" lrx="487" lry="110" />
+                  <zone xml:id="riga57_comba" ulx="110" uly="108" lrx="487" lry="139" />
+                  <zone xml:id="riga58_comba" ulx="110" uly="136" lrx="487" lry="167" />
+                  <zone xml:id="riga59_comba" ulx="110" uly="164" lrx="487" lry="195" />
+                  <zone xml:id="riga60_comba" ulx="110" uly="192" lrx="487" lry="223" />
+                  <zone xml:id="riga61_comba" ulx="110" uly="221" lrx="487" lry="252" />
+                  <zone xml:id="riga62_comba" ulx="110" uly="249" lrx="487" lry="280" />
+                  <zone xml:id="riga63_comba" ulx="110" uly="277" lrx="487" lry="308" />
+                  <zone xml:id="riga64_comba" ulx="154" uly="318" lrx="487" lry="349" />
+                  <zone xml:id="riga65_comba" ulx="110" uly="346" lrx="487" lry="377" />
+                  <zone xml:id="riga66_comba" ulx="110" uly="374" lrx="487" lry="405" />
+                  <zone xml:id="riga67_comba" ulx="110" uly="402" lrx="487" lry="433" />
+                  <zone xml:id="riga68_comba" ulx="110" uly="431" lrx="487" lry="461" />
+                  <zone xml:id="riga69_comba" ulx="110" uly="459" lrx="487" lry="489" />
+                  <zone xml:id="riga70_comba" ulx="154" uly="499" lrx="487" lry="529" />
+                  <zone xml:id="riga71_comba" ulx="110" uly="527" lrx="487" lry="558" />
+                  <zone xml:id="riga72_comba" ulx="110" uly="555" lrx="487" lry="586" />
+            </surface>
+
+
+            <!-- PAGINA 21-->
+            <surface>
+                  <graphic url='pag21.jpg' width='2350.27272px' height='3432.27272px' />
+                  <zone xml:id="titolo_inglesi" ulx="117" uly="93" lrx="285" lry="114" />
+                  <zone xml:id="riga1_inglesi" ulx="117" uly="123" lrx="496" lry="154" />
+                  <zone xml:id="riga2_inglesi" ulx="73" uly="151" lrx="496" lry="182" />
+                  <zone xml:id="riga3_inglesi" ulx="73" uly="179" lrx="496" lry="210" />
+                  <zone xml:id="riga4_inglesi" ulx="73" uly="207" lrx="496" lry="238" />
+                  <zone xml:id="riga5_inglesi" ulx="117" uly="248" lrx="496" lry="279" />
+                  <zone xml:id="riga6_inglesi" ulx="73" uly="276" lrx="496" lry="307" />
+                  <zone xml:id="riga7_inglesi" ulx="117" uly="316" lrx="496" lry="347" />
+                  <zone xml:id="riga8_inglesi" ulx="73" uly="345" lrx="496" lry="376" />
+                  <zone xml:id="riga9_inglesi" ulx="73" uly="373" lrx="496" lry="404" />
+
+
+                  <zone xml:id="titolo_francesi" ulx="117" uly="433" lrx="308" lry="455" />
+                  <zone xml:id="riga1_francesi" ulx="117" uly="464" lrx="496" lry="495" />
+                  <zone xml:id="riga2_francesi" ulx="73" uly="492" lrx="496" lry="523" />
+                  <zone xml:id="riga3_francesi" ulx="117" uly="532" lrx="496" lry="563" />
+                  <zone xml:id="riga4_francesi" ulx="73" uly="561" lrx="496" lry="592" />
+                  <zone xml:id="riga5_francesi" ulx="73" uly="589" lrx="496" lry="620" />
+                  <zone xml:id="riga6_francesi" ulx="73" uly="618" lrx="496" lry="649" />
+                  <zone xml:id="riga7_francesi" ulx="117" uly="658" lrx="496" lry="689" />
+                  <zone xml:id="riga8_francesi" ulx="73" uly="686" lrx="496" lry="717" />
+                  <zone xml:id="riga9_francesi" ulx="73" uly="715" lrx="496" lry="746" />
+                  <zone xml:id="riga10_francesi" ulx="117" uly="755" lrx="496" lry="786" />
+                  <zone xml:id="riga11_francesi" ulx="73" uly="783" lrx="496" lry="814" />
+                  <zone xml:id="riga12_francesi" ulx="117" uly="824" lrx="496" lry="855" />
+                  <zone xml:id="riga13_francesi" ulx="73" uly="852" lrx="496" lry="883" />
+                  <zone xml:id="riga14_francesi" ulx="73" uly="880" lrx="496" lry="911" />
+
+            </surface>
+
+
+      </facsimile>
+
+      <text>
+            <body>
+                  <div type="journal" org="composite">
+
+                        <!-- ARTICOLO 1 -->
+                        <div type="article" n="1" xml:lang="it">
+                              <head>CORRISPONDENZA DA <placeName>CASTELLAMMARE</placeName>.                                    <lb facs="#riga1_castellammare"/>
+                                    IL VARO DELLA «<name type="ship">Italia</name>»                                    <lb facs="#riga2_castellammare"/>
+                                    <date when="1880-09-30">30 Settembre 1880</date>.
+                              </head>
+                              <lb facs="#riga3_castellammare"/>
+                              <p>
+                                        Il varo dell'<name type="ship">Italia</name> è un fatto compiuto. Delle feste, degli<lb facs="#riga4_castellammare"/>
+                                        applausi, delle grida che salutarono <rs type="epithet">questo grande atto</rs> della<lb facs="#riga5_castellammare"/>
+                                        vita militare italiana, rimane ormai solamente il ricordo.<lb facs="#riga6_castellammare"/>
+                                        L'<name type="ship">Italia</name> intanto è là ferma in mare e pare aspetti i suoi destini.<lb facs="#riga7_castellammare"/>
+            <seg type="theme">Innanzi a <rs type="epithet">quel colosso</rs> si riaffaccia più serio, più insistente<lb facs="#riga8_castellammare"/>
+                                        che mai il problema se convenga contare per la lotta<lb facs="#riga9_castellammare"/>
+                                        su grandi e formidabili navi oppure su corazzate più modeste<lb facs="#riga10_castellammare"/>
+                                        ma di maggiore agilità.</seg> Non è qui il caso di riaprire<lb facs="#riga11_castellammare"/>
+                                        una discussione che da lungo tempo si dibatte nei giornali<lb facs="#riga12_castellammare"/>
+                                        italiani e stranieri: veniamo però a mettere in sodo che,<lb facs="#riga13_castellammare"/>
+                                        dopo il varo, e anche <date>qualche giorno prima</date>, i più fieri oppositori<lb facs="#riga14_castellammare"/>
+                                        dei grossi legni da guerra, pur riconfermando la necessità<lb facs="#riga15_castellammare"/>
+                                        di affrettare la costruzione di corazzate minori, hanno<lb facs="#riga16_castellammare"/>
+                                        lealmente riconosciuto che la <orgName>marina italiana</orgName> può fondare<lb facs="#riga17_castellammare"/>
+                                        solide speranze sui suoi <rs type="epithet">quattro colossi</rs>. Il <persName>Barnaby</persName>,<roleName>capo<lb facs="#riga18_castellammare"/>
+                                        dei costruttori</roleName> della <orgName>marina britannica</orgName>, lodò la costruzione<lb facs="#riga19_castellammare"/>
+                                        del <name type="ship">Duilio</name>.<rs type="epithet">L’illustre uomo</rs> non ha potuto ancora emettere il<lb facs="#riga20_castellammare"/>
+                                        suo giudizio sull'<name type="ship">Italia</name>, ma gli <roleName>ufficiali stranieri</roleName> che già poterono<lb facs="#riga21_castellammare"/>
+                                        visitarla durante i lavori, non nascosero la loro ammirazione<lb facs="#riga22_castellammare"/>
+                                        prodigando i più larghi elogi all’<orgName>ingegneria navale<lb facs="#riga23_castellammare"/>
+                                        italiana</orgName>. Gli <roleName>ufficiali</roleName> del <name type="ship">Thunderer</name>, recatisi nel cantiere il<lb facs="#riga24_castellammare"/>
+<date>giorno precedente al varo</date>, vale a dire non appena arrivati<lb facs="#riga25_castellammare"/>
+                                        nel porto, non rifinivano mai dal lodare l’arditezza della nostra<lb facs="#riga26_castellammare"/>
+                                        impresa. Il <roleName>direttore delle costruzioni navali</roleName> a <placeName>Castellammare</placeName>,<lb facs="#riga27_castellammare"/>
+                                        nell'additare con legittimo orgoglio <rs type="epithet">il colosso</rs>, diceva<lb facs="#riga28_castellammare"/>
+                                        a un gruppo d’<roleName>ufficiali di marina</roleName> italiani e stranieri: <quote>I vantaggi<lb facs="#riga29_castellammare"/>
+                                        di queste navi li vedremo quando potremo impiegarle.</quote>
+<lb facs="#riga30_castellammare"/>
+</p>
+<p>
+                                        Credo inutile parlarvi delle operazioni del varo. Vi darò<lb facs="#riga31_castellammare"/>
+                                        piuttosto, riguardo all'<name type="ship">Italia</name>, alcuni dati tecnici esattissimi<lb facs="#riga32_castellammare"/>
+                                        che basteranno a dare un’ idea chiara della grande importanza<lb facs="#riga33_castellammare"/>
+                                        che il possesso della nuova nave ha per la nostra<lb facs="#riga34_castellammare"/>
+                                        marina.<lb facs="#riga35_castellammare"/>
+                                        Lunghezza metri 122,00; larghezza 22,50; immersione<lb facs="#riga36_castellammare"/>
+                                        media 8,48; altezza totale del ridotto, 17,52; dislocamento<lb facs="#riga37_castellammare"/>
+                                        in completo carico, tonnellate 13,850. Immaginate ora un<lb facs="#riga38_castellammare"/>
+                                        grande scafo, il fondo del quale ha due fasciami distanti<lb facs="#riga39_castellammare"/>
+                                        un metro l’uno dall’altro, il che costituisce il <term>doppio fondo</term>.<lb facs="#riga40_castellammare"/>
+                                        Se il fasciame esterno è sfondato, l’acqua non penetra nella<lb facs="#riga41_castellammare"/>
+                                        nave, ma rimane circoscritta in una piccola cellula, imperocché<lb facs="#riga42_castellammare"/>
+                                        lo spazio compreso fra i due fasciami è diviso in 84 compartimenti<lb facs="#riga43_castellammare"/>
+                                        stagni, cioè a dire a prova d'acqua. A metri 1,80<lb facs="#riga44_castellammare"/>
+                                        al di sotto della linea di galleggiamento havvi poi un <term>ponte<lb facs="#riga45_castellammare"/>
+                                        stagno corazzato</term>, il quale, correndo da poppa a prora, divide<lb facs="#riga46_castellammare"/>
+                                        il bastimento in due grandi parti. Questo ponte è destinato<lb facs="#riga47_castellammare"/>
+                                        a proteggere la parte vitale della nave in modo che, ove<lb facs="#riga48_castellammare"/>
+                                        anche i proiettili nemici andassero a colpirla presso il galleggiamento,<lb facs="#riga49_castellammare"/>
+                                        invece di penetrare nella stiva danneggiando<lb facs="#riga50_castellammare"/>
+                                        macchine, caldaie e munizioni, rimbalzeranno senza pregiudizio.<lb facs="#riga51_castellammare"/>
+                                        Fra il ponte corazzato e quello di 1ª batteria, a distanza<lb facs="#riga52_castellammare"/>
+                                        di circa 40 centimetri sopra il galleggiamento, havvi una paratia<lb facs="#riga53_castellammare"/>
+                                        orizzontale stagna che divide orizzontalmente la nave in<lb facs="#riga54_castellammare"/>
+                                        tutta la sua lunghezza. Lo spazio fra questa paratia ed il<lb facs="#riga55_castellammare"/>
+                                        ponte è diviso in 188 compartimenti stagni, alcuni dei<lb facs="#riga56_castellammare"/>
+                                        quali verranno riempiti di carbone, di sughero, e di provvigioni.<lb facs="#riga57_castellammare"/>
+                                        La zona compresa fra la paratia orizzontale e il<lb facs="#riga58_castellammare"/>
+                                        ponte di 1ª batteria chiamasi <term>imbagliatura cellulare</term>, ed<lb facs="#riga59_castellammare"/>
+                                        è divisa in 154 compartimenti stagni. Se dunque per una<lb facs="#riga60_castellammare"/>
+                                        ragione qualsiasi l’acqua penetrasse fra la paratia e il ponte<lb facs="#riga61_castellammare"/>
+                                        corazzato, la nave, mercè l’imbagliatura, acquisterebbe subito<lb facs="#riga62_castellammare"/>
+                                        un altro spostamento, eliminando il pericolo di sommersione.<lb facs="#riga63_castellammare"/>
+                                        Anche la stiva che contiene tutte le parti vitali<lb facs="#riga64_castellammare"/>
+                                        della nave è divisa in 69 compartimenti stagni.<lb facs="#riga65_castellammare"/>
+                                        Il ponte di 2ª batteria trovasi fra quello di 1ª batteria<lb facs="#riga66_castellammare"/>
+                                        e il ponte scoperto: esso è specialmente destinato alle artiglierie<lb facs="#riga67_castellammare"/>
+                                        secondarie e agli alloggi; quello di 1ª batteria è<lb facs="#riga68_castellammare"/>
+                                        destinato ai siluri e agli alloggi.<lb facs="#riga69_castellammare"/>
+                                        Due piattaforme girevoli difese da un <term>ridotto corazzato</term>,<lb facs="#riga70_castellammare"/>
+                                        poggiano sopra sette paratie (4 trasversali e 3 longitudinali)<lb facs="#riga71_castellammare"/>
+                                        che dalla stiva si elevano fino al ponte scoperto. Le<lb facs="#riga72_castellammare"/>
+                                        piattaforme avranno 4 cannoni da 100 tonnellate (a <term>retrocarica</term>).<lb facs="#riga73_castellammare"/>
+                                        Le cariche ed i proiettili verranno innalzati dalla<lb facs="#riga74_castellammare"/>
+                                        stiva per mezzo di un tubo verticale cilindrico fortemente<lb facs="#riga75_castellammare"/>
+                                        protetto da corazza e che congiunge fortemente la parte<lb facs="#riga76_castellammare"/>
+                                        inferiore del ridotto col ponte corazzato. Altri 20 cannoni<lb facs="#riga77_castellammare"/>
+                                        di 15 centimetri di calibro completeranno l’armamento dell'<name type="ship">Italia</name>:<lb facs="#riga78_castellammare"/>
+                                        essi avranno tale efficacia perforatrice da sfondare<lb facs="#riga79_castellammare"/>
+                                        i fianchi di parecchie corazzate esistenti. Fra tutto, 1350<lb facs="#riga80_castellammare"/>
+                                        tonnellate d’artiglieria: la <name type="ship">Devastation</name> e il <name type="ship">Thunderer</name>, le navi<lb facs="#riga81_castellammare"/>
+                                        inglesi più recenti, ne portano soltanto 400.<lb facs="#riga82_castellammare"/>
+                                        L’apparato motore è composto di 4 macchine uguali, due<lb facs="#riga83_castellammare"/>
+                                        dalla parte di poppa, due da quella di prua; nell’insieme 12<lb facs="#riga84_castellammare"/>
+                                        cilindri e 26 caldaie. Ciascun gruppo di caldaie ha il suo<lb facs="#riga85_castellammare"/>
+                                        fumaiolo il cui battente sarà protetto da <term>corazze compound</term>,<lb facs="#riga86_castellammare"/>
+                                        grosse 40 centimetri. Ove anche uno dei compartimenti<lb facs="#riga87_castellammare"/>
+                                        delle macchine soffrisse qualche grave avaria, la potenza<lb facs="#riga88_castellammare"/>
+                                        evaporatrice verrebbe solamente diminuita di un sesto.<lb facs="#riga89_castellammare"/>
+                                        La nave ha un <term>rostro</term> di oltre 20 tonnellate di peso. Le<lb facs="#riga90_castellammare"/>
+                                        due eliche ed il timone restano molto al disotto della linea<lb facs="#riga91_castellammare"/>
+                                        di galleggiamento; al coperto cioè da ogni offesa per parte<lb facs="#riga92_castellammare"/>
+                                        dei cannoni nemici. La forza è di 18,000 cavalli, sicché sarà<lb facs="#riga93_castellammare"/>
+                                        possibile imprimere alla nave una velocità di 17 miglia<lb facs="#riga94_castellammare"/>
+                                        all’ora e forse oltrepassarla. Il timone viene mosso da una<lb facs="#riga95_castellammare"/>
+                                        macchina a vapore speciale; anche le àncore e le trombe da incendio<lb facs="#riga96_castellammare"/>
+                                        funzioneranno a vapore. L’innalzamento delle cariche<lb facs="#riga97_castellammare"/>
+                                        e dei proietti, la manovra delle piattaforme, il caricamento<lb facs="#riga98_castellammare"/>
+                                        dei cannoni, si faranno mercè apparecchi idraulici a vapore.<lb facs="#riga99_castellammare"/>
+                                        L’equipaggio dell'<name type="ship">Italia</name> in tempo di pace sarà di circa 500<lb facs="#riga100_castellammare"/>
+                                        persone.<lb facs="#riga101_castellammare"/>
+</p>
+<p>
+                                        L'<name type="ship">Italia</name> è davvero la più grande corazzata del mondo.<lb facs="#riga102_castellammare"/>
+                                        È facile convincersene confrontando i dati seguenti che si<lb facs="#riga103_castellammare"/>
+                                        riferiscono alle più grosse navi da guerra delle marine europee,<lb facs="#riga104_castellammare"/>
+                                        con quelli già dati sulla nuova nave italiana.<lb facs="#riga105_castellammare"/>
+<orgName>Marina Germanica</orgName>,<name type="ship">König-Wilhelm</name>, lunghezza metri 108.52,<lb facs="#riga106_castellammare"/>
+                                        larghezza 18.90, immersione media 7,72 forza 8000 cavalli;<lb facs="#riga107_castellammare"/>
+                                        velocità miglia 14,71 all’ora, armamento 18 cannoni Krupp<lb facs="#riga108_castellammare"/>
+                                        da 24 e 5 da 21. <orgName>Marina Britannica</orgName>:<name type="ship">Achilles</name>, lunghezza 117,80<lb facs="#riga109_castellammare"/>
+                                        larghezza 27,77; immersione media 8,16; velocità miglia 14,32;<lb facs="#riga110_castellammare"/>
+                                        forza della macchina 5722 cavalli. <name type="ship">Dreadnought</name>: lunghezza<lb facs="#riga111_castellammare"/>
+                                        97,54; larghezza 19,45; immersione media 8,15; velocità 14 miglia<lb facs="#riga112_castellammare"/>
+                                        all’ora; forza della macchina 8215 cavalli; armamento 4<lb facs="#riga113_castellammare"/>
+                                        cannoni da 32 centimetri. <name type="ship">Inflexible</name>: lunghezza metri 97,54;<lb facs="#riga114_castellammare"/>
+                                        larghezza <choice>
+<abbr>m.</abbr>
+<expan>metri</expan>
+</choice> 22,87; immersione media 14,45; velocità 14<lb facs="#riga115_castellammare"/>
+                                        miglia all’ora; forza della macchina 8000 cavalli, arma<lb break="no" facs="#riga115_castellammare" />
+mento<lb facs="#riga116_castellammare"/>
+                                        4 cannoni da 40 centimetri. <orgName>Marina Austriaca</orgName>:<name type="ship">Tegetthoff</name>,<lb facs="#riga117_castellammare"/>
+                                        lunghezza metri 87,40; larghezza 21,67; immersione<lb facs="#riga118_castellammare"/>
+                                        media 8,38; velocità 14 miglia all’ ora, forza della macchina<lb facs="#riga119_castellammare"/>
+                                        7200 cavalli; armamento 6 cannoni Krupp da 28 centimetri.<lb facs="#riga120_castellammare"/>
+<name type="ship">Custoza</name>: lunghezza metri 92,11; larghezza <choice>
+<abbr>m.</abbr>
+<expan>metri</expan>
+</choice> 17,69;<lb facs="#riga121_castellammare"/>
+                                        immersione media 8,13; velocità 14 miglia all’ora; forza della<lb facs="#riga122_castellammare"/>
+                                        macchina 4610 cavalli; armamento 8 cannoni Krupp da 26<lb facs="#riga123_castellammare"/>
+                                        centimetri. <orgName>Marina Russa</orgName>:<persName type="fictional">Pietro il Grande</persName>, lunghezza 101,56;<lb facs="#riga124_castellammare"/>
+                                        larghezza 19,25; immersione 7.54; velocità 13 miglia all’ora,<lb facs="#riga125_castellammare"/>
+                                        forza della macchina 8000 cavalli, armamento 4 cannoni<lb facs="#riga126_castellammare"/>
+                                        Krupp da 30 centimetri e 6 cannoni sussidiari.<lb facs="#riga127_castellammare"/>
+</p>
+<p>
+                                        Come è evidente, la sola <name type="ship">Inflexible</name> della <orgName>marina inglese</orgName>
+<lb facs="#riga128_castellammare"/>
+                                        sta a petto del <name type="ship">Duilio</name> restando però al di sotto nell’armamento.<lb facs="#riga129_castellammare"/>
+                                        Nessuna poi uguaglia l'<name type="ship">Italia</name>. Nelle proporzioni<lb facs="#riga130_castellammare"/>
+                                        l'<name type="ship">Italia</name> è vinta soltanto dal <name type="ship">Great-Eastern</name>, ma questa non<lb facs="#riga131_castellammare"/>
+                                        è una nave da guerra e se fu <seg type="theme">un trionfo della ingegneria<lb facs="#riga132_castellammare"/>
+                                        inglese</seg>, fu un vero insuccesso dal lato industriale economico.<lb facs="#riga133_castellammare"/>
+                                        Per assicurare la stabilità dell'<name type="ship">Italia</name>, i disegni furono<lb facs="#riga134_castellammare"/>
+                                        molte volte corretti e ricorretti, si è dovuto rinunciare a<lb facs="#riga135_castellammare"/>
+                                        molti sogni sulla forza difensiva che le si voleva dare, ma<lb facs="#riga136_castellammare"/>
+                                        anche come fu ora costruita e riuscendo ad imprimerle la<lb facs="#riga137_castellammare"/>
+                                        stessa velocità del <name type="ship">Duilio</name>, sarà sempre <seg type="theme">un miracolo d’ingegneria</seg>,<lb facs="#riga138_castellammare"/>
+                                        giacché non è da dimenticarsi che nelle prove di<lb facs="#riga139_castellammare"/>
+<placeName>Spithead</placeName> avvenute il <date when="1880-05-10">10 maggio decorso</date>, l'<placeName>Inghilterra</placeName> si<lb facs="#riga140_castellammare"/>
+                                        dimostrò soddisfatta della velocità di 14 miglia e un terzo<lb facs="#riga141_castellammare"/>
+                                        l’ora, sviluppando una forza di 7993 cavalli. <seg type="theme">Ma siamo<lb facs="#riga142_castellammare"/>
+                                        sempre lì: dato un combattimento disperato, a chi, fra la<lb facs="#riga143_castellammare"/>
+                                        massa e l’agilità, resterà la vittoria?</seg>
+<lb facs="#riga144_castellammare"/>
+</p>
+<p>
+                                        Per la grande maggioranza degli <roleName>ufficiali di marina</roleName>,<lb facs="#riga145_castellammare"/>
+                                        compresi i partigiani delle grandi navi, è stato un vero<lb facs="#riga146_castellammare"/>
+                                        avvenimento la dichiarazione dell’<choice>
+<abbr>on.</abbr>
+<expan>onorevole</expan>
+</choice>
+<persName>Acton</persName>, secondo la quale<lb facs="#riga147_castellammare"/>
+                                        egli intende dare a compagne e presto alle grandi corazzate,<lb facs="#riga148_castellammare"/>
+                                        alcune altre corazzate minori. Il cantiere di <placeName>Castellammare</placeName> è<lb facs="#riga149_castellammare"/>
+                                        ormai sgombro, e accanto al leggero incrociatore ora in<lb facs="#riga150_castellammare"/>
+                                        costruzione (il <name type="ship">Flavio Gioia</name>) sorgerà presto una nuova corazzata<lb facs="#riga151_castellammare"/>
+                                        più piccola dell'<name type="ship">Italia</name> ma più mobile. Quando la <orgName>marina<lb facs="#riga152_castellammare"/>
+                                        italiana</orgName>, compiute le quattro grandi corazzate, avrà un<lb facs="#riga153_castellammare"/>
+                                        sufficiente numero di navi minori per difenderle, allora davvero<lb facs="#riga154_castellammare"/>
+                                        potrà farsi rispettare o temere. E speriamo che quel<lb facs="#riga155_castellammare"/>
+                                        giorno non sia lontano.<lb facs="#riga156_castellammare"/>
+</p>
+</div>
+
+
+<!-- ARTICOLO 2-->
+<div type="journal" n="2" xml:lang="it">
+
+<head>
+      PRIMAVERA.
+</head>
+
+<p>
+<seg type="theme">
+<lb n="1" facs="#riga1_primavera" />
+Folta delle sue nuove foglie, una vecchia quercia gode
+<lb n="2" facs="#riga2_primavera" />
+la vita slanciando al sole di <date>maggio</date> le braccia robuste, e
+<lb n="3" facs="#riga3_primavera" />
+il vento canta alla primavera tra le sue fronde sonore.
+<lb n="4" facs="#riga4_primavera" />
+Canta alla primavera che ride intorno odorata e nuota
+<lb n="5" facs="#riga5_primavera" />
+voluttuosa sull’onda delle verdi messi e tra i pampani e tra
+<lb n="6" facs="#riga6_primavera" />
+i fiori ondeggianti a un limpido sole, cullando ne’ loro aperti
+<lb n="7" facs="#riga7_primavera" />
+calici l’amore di mille insetti felici; e il polline giallo, commosso
+<lb n="8" facs="#riga8_primavera" />
+da tante ebbrezze, vola col vento a preparare altri
+<lb n="9" facs="#riga9_primavera" />
+profumi, altri fiori alla eterna giovinezza dei campi.</seg>
+</p>
+
+<p>
+<seg type="theme">
+<lb n="10" facs="#riga10_primavera" />
+In mezzo a tanto lusso di vita, stanchi nelle membra e
+<lb n="11" facs="#riga11_primavera" />
+freddi nel core, una <persName type="fictional">bianca vecchierella</persName> e un <persName type="fictional">magro vecchietto</persName>,
+<lb n="12" facs="#riga12_primavera" />
+seduti uno accanto all’altro all’ombra della quercia,
+<lb n="13" facs="#riga13_primavera" />
+godono tranquilli il riposo del meriggio.</seg>
+</p>
+
+<p>
+<lb n="14" facs="#riga14_primavera" />
+—<quote>Fa caldo oggi, sapete? fa caldo</quote> — E così dicendo,
+<lb n="15" facs="#riga15_primavera" />
+la <rs type="epithet">giovereccia vecchierella</rs> si allenta il busto, si scioglie il
+<lb n="16" facs="#riga16_primavera" />
+nodo alla pezzuola che le fascia la testa, e facendosi vento
+<lb n="17" facs="#riga17_primavera" />
+con quella, si abbandona resupina col capo tra i fiori rossi
+<lb n="18" facs="#riga18_primavera" />
+del suo fascio di lupinella.</p>
+
+<p>
+<lb n="19" facs="#riga19_primavera" />
+Il <persName type="fictional">vecchio</persName> la guarda distratto; una folla di nebbiose
+<lb n="20" facs="#riga20_primavera" />
+reminiscenze gli corre alla memoria, e appoggiandosi anch’egli
+<lb n="21" facs="#riga21_primavera" />
+al suo fascio di trifoglio, ripesca <title>un frammento d’ottava</title>
+<lb n="22" facs="#riga22_primavera" />
+da lui improvvisata <date>sessant’anni or sono</date>, una <date>notte
+<lb n="23" facs="#riga23_primavera" />
+d’agosto</date>, sotto la finestra della sua <persName type="fictional">Gioconda</persName> ; e guardando
+<lb n="24" facs="#riga24_primavera" />
+smemorato all’aria, pensa e canta a bassa voce:
+<quote>
+<lg type="ottava">
+<l>
+<lb n="25" facs="#riga25_primavera" />
+Se ancor, dolcezza mia, se non sapete</l>
+<l>
+<lb n="26" facs="#riga26_primavera" />
+Ove per me s’è aperto il paradiso,</l>
+<l>
+<lb n="27" facs="#riga27_primavera" />
+Guardatovi allo specchio e lo vedrete</l>
+<l>
+<lb n="28" facs="#riga28_primavera" />
+Tutto dinanzi a voi nel vostro viso. ...</l>
+</lg>
+</quote>
+</p>
+
+<p>
+<lb n="29" facs="#riga29_primavera" />
+Oh! com’era bella, com'era bella <persName type="fictional">Gioconda</persName> a <date>sedici anni</date>!
+<lb n="30" facs="#riga30_primavera" />
+Nella sua bianca casetta accucciata all’ombra d’un noce e di
+<lb n="31" facs="#riga31_primavera" />
+due giovani gelsi, stava sempre la gioia, e <persName type="fictional">Gioconda</persName> era
+<lb n="32" facs="#riga32_primavera" />
+l’idolo di tutti, perchè anche le sue compagne, buttato da
+<lb n="33" facs="#riga33_primavera" />
+parte ogni piccolo sentimento d’invidia, se la guardavano
+<lb n="34" facs="#riga34_primavera" />
+compiacendosene e le volevano bene.</p>
+
+<p>
+<lb n="35" facs="#riga35_primavera" />
+La stanza del suo telaio situata a terreno dava sulla
+<lb n="36" facs="#riga36_primavera" />
+via; lì era il ritrovo favorito delle sue liete vicine, e fra i
+<lb n="37" facs="#riga37_primavera" />
+discorsi, i canti e le cordiali risate, moveva sempre di là
+<lb n="38" facs="#riga38_primavera" />
+un festoso baccano che riempiva di buon umore il viso
+<lb n="39" facs="#riga39_primavera" />
+delle <persName type="fictional" role="group">povere nonne</persName>, sedute lì presso sulle porte a filare,
+<lb n="40" facs="#riga40_primavera" />
+le quali si beavano in quelle risa e in quei canti come
+<lb n="41" facs="#riga41_primavera" />
+in un ritorno soave alle gioie perdute dei loro giovani
+<lb n="42" facs="#riga42_primavera" />
+anni.</p>
+
+<p>
+<lb n="43" facs="#riga43_primavera" />
+I giovanotti che passavano gettando la grassa arguzia
+<lb n="44" facs="#riga44_primavera" />
+in quel crocchio di spensierate, o che si fermavano sulla
+<lb n="45" facs="#riga45_primavera" />
+porta ad agognare, erano le loro vittime predilette: <persName type="fictional">Cecco</persName>
+<lb n="46" facs="#riga46_primavera" />
+aveva le gambe torte; <persName type="fictional">Pippo</persName> si struggeva de’ baffi e s’inge<lb break="no" n="47" facs="#riga47_primavera" />
+gnava e si martirizzava continuamente quelle quattro
+<lb n="48" facs="#riga48_primavera" />
+setole che non volevano allungare; <persName type="fictional">lo Spagnolino</persName> buttava
+<lb n="49" facs="#riga49_primavera" />
+i piedi a gallo, e <persName type="fictional">Rocco</persName>, povero <persName type="fictional">Rocco</persName>! aveva la lisca. E lo
+<lb n="50" facs="#riga50_primavera" />
+strapazzavano e gli facevano il verso tutte le volte che timido
+<lb n="51" facs="#riga51_primavera" />
+timido si affacciava a tartagliare qualche goffa galanteria;
+<lb n="52" facs="#riga52_primavera" />
+e allora ridi pure, amore mio! ed erano tali risate
+<lb n="53" facs="#riga53_primavera" />
+che quelle monelle duravano, a volte, a sganasciarsi per una
+<lb n="54" facs="#riga54_primavera" />
+ventina di minuti senza aver tempo nè discrezione di chetarsi
+<lb n="55" facs="#riga55_primavera" />
+neanche per un momento a ripigliar fiato.</p>
+
+<p>
+<lb n="56" facs="#riga56_primavera" />
+E <persName type="fictional">Rocco</persName> si allontanava afflitto, colla coda fra le gambe
+<lb n="57" facs="#riga57_primavera" />
+pensando alle trecce della sua <persName type="fictional">Gioconda</persName>, e sospirava più
+<lb n="58" facs="#riga58_primavera" />
+fitto dei colpi del telaio che lo accompagnavano insieme
+<lb n="59" facs="#riga59_primavera" />
+con gli scoppi di risa, finché, rintanato nel fondo della
+<lb n="60" facs="#riga60_primavera" />
+stalla, si sfogava a dar pedate nella pancia del su’ povero
+<lb n="61" facs="#riga61_primavera" />
+ciuco, e a palpare le cosce delle sue giovenche, orgoglio
+<lb n="62" facs="#riga62_primavera" />
+della casata, invidia dei contadini dei dintorni e ghiottoneria
+<lb n="63" facs="#riga63_primavera" />
+troppo preziosa per <persName type="fictional">Simone</persName>
+<roleName>macellaro</roleName>.
+</p>
+
+<p>
+<lb n="64" facs="#riga64_primavera" />
+Ma quelle risa e quei canti a volte cessavano ad un
+<lb n="65" facs="#riga65_primavera" />
+tratto; e allora le <persName type="fictional" role="group">bianche nonne del vicinato</persName>, capito subito
+<lb n="66" facs="#riga66_primavera" />
+di che si trattava, alzavano gli occhi dal fuso e voltandosi
+<lb n="67" facs="#riga67_primavera" />
+verso la porta del telaio vedevano <persName type="fictional">Maso</persName>, che, appoggiato
+<lb n="68" facs="#riga68_primavera" />
+con artistica posa allo stipite di quella, girava su quel
+<lb n="69" facs="#riga69_primavera" />
+gruppo di fresche giovinotte i suoi fieri occhi innamorati
+<lb n="70" facs="#riga70_primavera" />
+per incontrarsi con quelli dolci e sereni della sua <persName type="fictional">Gioconda</persName>,
+<lb n="71" facs="#riga71_primavera" />
+la quale, fatto un languido saluto, arrossendo gli abbassava
+<lb n="72" facs="#riga72_primavera" />
+sulla spola che allora cominciava a correre più agile
+<lb n="73" facs="#riga73_primavera" />
+e più rumorosa attraverso all’ordito della sua tela.</p>
+
+<p>
+<lb n="74" facs="#riga74_primavera" />
+<seg type="theme">Oh! che bei tempi, che bei tempi erano quelli! Quanti
+<lb n="75" facs="#riga75_primavera" />
+ricordi amaramente soavi scendono al core dalle mura di
+<lb n="76" facs="#riga76_primavera" />
+quella bianca casetta! Quante confuse memorie sotto l’ombra
+<lb n="77" facs="#riga77_primavera" />
+di quel noce e di quei gelsi, sempre verdi e frondosi
+<lb n="78" facs="#riga78_primavera" />
+come a quei giorni tanto lontani!</seg>
+</p>
+
+<p>
+<lb n="79" facs="#riga79_primavera" />
+E nulla par cambiato là intorno. Quelle siepi cariche di
+<lb n="80" facs="#riga80_primavera" />
+fiori di biancospino, quegli argini smaltati di rosolacci e
+<lb n="81" facs="#riga81_primavera" />
+di pratoline che fiancheggiano la via che mena alla chiesa
+<lb n="82" facs="#riga82_primavera" />
+pare che aspettino sempre le limpide domeniche di <date>maggio</date>,
+<lb n="83" facs="#riga83_primavera" />
+quando <persName type="fictional">Gioconda</persName>, in mezzo a una corona di giovani amiche
+<lb n="84" facs="#riga84_primavera" />
+che godevano al riflesso della sua bellezza, passava fresca
+<lb n="85" facs="#riga85_primavera" />
+e profumata come una rosa, con gli sguardi a terra fra le
+<lb n="86" facs="#riga86_primavera" />
+occhiate di fuoco dei giovanotti che l’aspettavano sparsi
+<lb n="87" facs="#riga87_primavera" />
+qua e là, in piccoli gruppi lungo la via. E fra quei giovanotti
+<lb n="88" facs="#riga88_primavera" />
+c’era anche <persName type="fictional">Maso</persName>, ravviato, lindo, con la barba fatta
+<lb n="89" facs="#riga89_primavera" />
+d’allora, con la sua bella giacchetta di frustagno turchino,
+<lb n="90" facs="#riga90_primavera" />
+cappello nero di felpa e garofano rosso dentro al nastro di
+<lb n="91" facs="#riga91_primavera" />
+quello. E a lui toccava una occhiata e un lieve sorriso che
+<lb n="92" facs="#riga92_primavera" />
+lo spingeva a stendere affettuoso un braccio sul collo dell’amico
+<lb n="93" facs="#riga93_primavera" />
+più vicino, ed a correre subito in fondo di chiesa
+<lb n="94" facs="#riga94_primavera" />
+accanto all’altare, per chiedere, in tempo della messa, un
+<lb n="95" facs="#riga95_primavera" />
+altro sorriso almeno e un’altra occhiata alla sua <persName type="fictional">Gioconda</persName>
+<lb n="96" facs="#riga96_primavera" />
+che tutta rossa e confusa glie ne dava mille pur non volendogliene
+<lb n="97" facs="#riga97_primavera" />
+dare nemmeno una.</p>
+
+<p>
+<lb n="98" facs="#riga98_primavera" />
+Dio avrà perdonato a <persName type="fictional">Maso</persName> la profanazione, perchè anche
+<lb n="99" facs="#riga99_primavera" />
+il povero <roleName>priore</roleName> morto non credeva di far male quando
+<lb n="100" facs="#riga100_primavera" />
+voltandosi al <term>Dominus vobiscum</term> guardava il cielo, il viso di
+<lb n="101" facs="#riga101_primavera" />
+<persName type="fictional">Gioconda</persName>, e riportava puri i suoi occhi sulla mistica mensa.</p>
+
+<p>
+<lb n="102" facs="#riga102_primavera" />
+E <persName type="fictional">Gioconda</persName> e <persName type="fictional">Maso</persName> non poterono mai essere sposi. Si
+<lb n="103" facs="#riga103_primavera" />
+amarono lungamente, si amarono molto, si amarono forse
+<lb n="104" facs="#riga104_primavera" />
+troppo... ma il destino non li volle uniti.</p>
+
+<p>
+<lb n="105" facs="#riga105_primavera" />
+Quando lui tornò da fare il <roleName>soldato</roleName>, dove stette <date>diciotto
+<lb n="106" facs="#riga106_primavera" />
+anni</date>, la trovò <roleName>sposa</roleName> e <roleName>madre</roleName> di quattro bambini. <persName type="fictional">Rocco</persName>,
+<lb n="107" facs="#riga107_primavera" />
+<rs type="epithet">quello della lisca, delle pedate al ciuco e delle grasse giovenche</rs>,
+<lb n="108" facs="#riga108_primavera" />
+l’aveva sposata già da <date>dodici anni</date>.<persName type="fictional">Rocco</persName> ebbe da
+<lb n="109" facs="#riga109_primavera" />
+quel tempo fino alla morte tutto l’affetto della sua <persName type="fictional">Gioconda</persName>:
+<lb n="110" facs="#riga110_primavera" />
+a <persName type="fictional">Maso</persName> restò sempre l’amore.</p>
+
+<p>
+<lb n="111" facs="#riga111_primavera" />
+E ora è tardi! — pensò <persName type="fictional">Maso</persName>, alzando adagio adagio
+<lb n="112" facs="#riga112_primavera" />
+il capo, dal suo fascio di trifoglio. — <quote>È tardi!</quote> — e si mise
+<lb n="113" facs="#riga113_primavera" />
+a guardare il viso della sua <persName type="fictional">Gioconda</persName> mezza addormentata
+<lb n="114" facs="#riga114_primavera" />
+col capo tra i fiori di lupinella, per cercarvi almeno una
+<lb n="115" facs="#riga115_primavera" />
+ultima traccia della perduta bellezza.</p>
+
+<p>
+<seg type="theme">
+<lb n="116" facs="#riga116_primavera" />
+La pelle floscia e lentigginosa di quel collo la vide a
+<lb n="117" facs="#riga117_primavera" />
+poco a poco ritornar bianca e levigata; sparirono ad una
+<lb n="118" facs="#riga118_primavera" />
+ad una le mille rughe di quelle gote vizze che gli apparvero
+<lb n="119" facs="#riga119_primavera" />
+fresche e piene di giovane sangue; al terreo colore di
+<lb n="120" facs="#riga120_primavera" />
+quelle subentrò l’incarnato della rosa; i radi e bianchi capelli
+<lb n="121" facs="#riga121_primavera" />
+ritornarono biondi e raccolti in trecce abbondanti, e
+<lb n="122" facs="#riga122_primavera" />
+dopo <date>sessant’anni</date> la rivide giovane e bella, e riamò, giovane
+<lb n="123" facs="#riga123_primavera" />
+anch’egli, quella che soleva chiamare la passione
+<lb n="124" facs="#riga124_primavera" />
+dell’anima sua.</seg>
+</p>
+
+<p>
+<seg type="theme">
+<lb n="125" facs="#riga125_primavera" />
+La primavera intanto sospirava calda pei campi, rubando
+<lb n="126" facs="#riga126_primavera" />
+odori e gorgheggi ai fiori sbocciati con l’alba e alle
+<lb n="127" facs="#riga127_primavera" />
+cinciallegre in amore.</seg>
+</p>
+
+<p>
+<lb n="128" facs="#riga128_primavera" />
+<persName type="fictional">Maso</persName> si spenzolò col suo sul viso della sua <persName type="fictional">Gioconda</persName>
+<lb n="129" facs="#riga129_primavera" />
+per deporvi un bacio, ma <persName type="fictional">Gioconda</persName>, sentendo un alito caldo
+<lb n="130" facs="#riga130_primavera" />
+sulla faccia, aprì gli occhi, colse il pensiero del vecchio nel
+<lb n="131" facs="#riga131_primavera" />
+sorriso imbambolato che gli brillava negli occhi, e guardandolo
+<lb n="132" facs="#riga132_primavera" />
+fisso e sorridendo anch’essa — <quote>E ora che avete?
+<lb n="133" facs="#riga133_primavera" />
+<rs type="epithet">vecchio pazzo</rs>!
+</quote> — gli disse.</p>
+
+<p>
+<lb n="134" facs="#riga134_primavera" />
+Il vecchio non rispose, ma accostandosi agli orecchi di
+<lb n="135" facs="#riga135_primavera" />
+lei, vi susurrò qualche parola che provocando in ambedue
+<lb n="136" facs="#riga136_primavera" />
+uno scoppio di omeriche risa, li ributtò supini, tra i fiori
+<lb n="137" facs="#riga137_primavera" />
+dell’erba a mostrare al cielo ridente le loro povere bocche
+<lb n="138" facs="#riga138_primavera" />
+larghe e sdentate.</p>
+
+<p>
+<seg type="theme">
+<lb n="139" facs="#riga139_primavera" />
+Il vento prese quelle voci e portandole a volo, aggiunse
+<lb n="140" facs="#riga140_primavera" />
+anche quella rauca nota alle misteriose armonie del creato.</seg>
+</p>
+
+<closer>
+<signed>
+<lb n="141" facs="#riga141_primavera" />
+<choice>
+<abbr>R.</abbr>
+<expan>Renato</expan>
+</choice>
+<persName>Fucini</persName>.
+</signed>
+</closer>
+
+
+</div>
+
+
+<!-- BIBLIOGRAFIE -->
+<div type="sezione_bibliografie">
+<lb facs="#riga1_ferrari" />
+<head>BIBLIOGRAFIA.</head>
+<div type="bibliografia1">
+<lb facs="#riga2_ferrari" />
+<p>
+<persName>Beverino Ferrari</persName>,<title>A proposito di Olimpo da Sassoferrato</title>.
+</p>
+<lb facs="#riga3_ferrari" />
+<p>
+<placeName>Bologna</placeName>,<orgName type="publisher">Zanichelli</orgName>,<date>1880</date>.
+</p>
+<lb facs="#riga4_ferrari" />
+<p>
+<seg type="theme">L’importanza dell’<persName>Olimpo</persName> per la retta conoscenza della
+<lb facs="#riga5_ferrari" />
+poesia popolare italiana e delle sue relazioni colla forma
+<lb facs="#riga6_ferrari" />
+letteraria</seg>, fu primamente dimostrata dal <roleName>
+<choice>
+<abbr>prof.</abbr>
+<expan>professore</expan>
+</choice>
+</roleName>
+<persName>D’Ancona</persName>
+<lb facs="#riga7_ferrari" />
+nel suo volume di <title>Studi</title> pubblicato dal <orgName type="publisher">Vigo</orgName>. Ora il <roleName>
+<choice>
+<abbr>sig.</abbr>
+<expan>signor</expan>
+</choice>
+</roleName>
+<lb facs="#riga8_ferrari" />
+<persName>Ferrari</persName> dimostra cosa che torna a grand’onore del <rs type="epithet">poeta
+<lb facs="#riga9_ferrari" />
+da <placeName>Sassoferrato</placeName>
+</rs>, e che è riconferma della voga che qualche
+<lb facs="#riga10_ferrari" />
+secolo addietro ebbero le sue rime, ora note soltanto ai
+<lb facs="#riga11_ferrari" />
+nostri volghi: ed è che quella vaghissima <term>canzone</term> della
+<lb facs="#riga12_ferrari" />
+<title>Brunettina</title>, che in moderne edizioni parve degna di esser
+<lb facs="#riga13_ferrari" />
+attribuita al <persName>Poliziano</persName>, è invece opera dell’<persName>Olimpo</persName>. Nè a
+<lb facs="#riga14_ferrari" />
+questa rivendicazione si restringe il <roleName>
+<choice>
+<abbr>sig.</abbr>
+<expan>signor</expan>
+</choice>
+</roleName>
+<persName>Ferrari</persName>, ma con
+<lb facs="#riga15_ferrari" />
+acume ed erudizione molta segue le vicissitudini di quel
+<lb facs="#riga16_ferrari" />
+poetico componimento, mostrando come dalla <title>Pastorella</title>
+<lb facs="#riga17_ferrari" />
+dell’<persName>Olimpo</persName> uscirono per popolari modificazioni due altre
+<lb facs="#riga18_ferrari" />
+<term>canzonette</term>, l’una delle quali è la <title>Brunettina toscana</title>, l’altra
+<lb facs="#riga19_ferrari" />
+è una <title>Pastorella transappennina</title>, che poi diffondendosi
+<lb facs="#riga20_ferrari" />
+anche di qua dai <geogName>monti</geogName> si tramutò in una <title>Boscarola</title>.
+<lb facs="#riga21_ferrari" />
+Così l’ispirazione popolare dell’<persName>Olimpo</persName> venne dal popolo
+<lb facs="#riga22_ferrari" />
+fatta propria e modificata continuamente. Il <roleName>
+<choice>
+<abbr>sig.</abbr>
+<expan>signor</expan>
+</choice>
+</roleName>
+<persName>Ferrari</persName>
+<lb facs="#riga23_ferrari" />
+ha pubblicato la prima forma della <title>Pastorella</title>, e insieme alcuni
+<lb facs="#riga24_ferrari" />
+leggiadri <term>strambotti</term> dell’<persName>Olimpo</persName> in lode della <persName type="fictional">bella
+<lb facs="#riga25_ferrari" />
+rusticana</persName>, e inoltre anche alcuni <term>sonetti</term>, che mostrano come
+<lb facs="#riga26_ferrari" />
+poco felice <roleName>poeta</roleName> fosse l’<persName>Olimpo</persName> quando non s’ispirava alle
+<lb facs="#riga27_ferrari" />
+forme popolari. L’<term>opuscolo</term> ha forma polemica, cioè di risposta
+<lb facs="#riga28_ferrari" />
+al <roleName>signor</roleName>
+<persName>Alessandro Luzio</persName>, del quale abbiamo letto
+<lb facs="#riga29_ferrari" />
+recentemente nella <orgName type="publisher">Nuova Antologia</orgName> un articolo assai ben
+<lb facs="#riga30_ferrari" />
+fatto sull’<persName>Olimpo</persName>, e che giunge alle stesse conclusioni a cui
+<lb facs="#riga31_ferrari" />
+ci conduce il <persName>Ferrari</persName>. Perchè questi due signori, che crediamo
+<lb facs="#riga32_ferrari" />
+giovani, si piacciano a polemizzare, e qualche volta
+<lb facs="#riga33_ferrari" />
+a pungersi, come specialmente fa il <persName>Ferrari</persName> col suo avversario,
+<lb facs="#riga34_ferrari" />
+mentre poi nella sostanza sono d’accordo, davvero
+<lb facs="#riga35_ferrari" />
+non sappiamo. .</p>
+<lb facs="#riga36_ferrari" />
+<p>Conchiudendo, diremo che lo scritto del <persName>Ferrari</persName> ci rivela
+<lb facs="#riga37_ferrari" />
+una speciale attitudine e uno studio assiduo sulla materia
+<lb facs="#riga38_ferrari" />
+della <seg type="theme">poesia popolare nei secoli andati</seg>: e poiché abbiamo
+<lb facs="#riga39_ferrari" />
+visto di lui nel giornale il <orgName type="publisher">Propugnatore</orgName> uno scritto intitolato
+<lb facs="#riga40_ferrari" />
+:<title>Documenti per servire alla storia della poesia semi-popolare
+<lb facs="#riga41_ferrari" />
+cittadina in Italia nei secoli XVI e XVII</title>, noi vorremmo
+<lb facs="#riga42_ferrari" />
+consigliarlo a perfezionare quegli studi, a compiere le sue
+<lb facs="#riga43_ferrari" />
+ricerche, e colmare così una lacuna nella storia della poesia
+<lb facs="#riga44_ferrari" />
+italiana.</p>
+</div>
+<div type="bibliografia2">
+<lb facs="#riga1_comba" />
+<p>
+<persName>Emilio Comba</persName>,<title>Valdo ed i Valdesi avanti la Riforma. Cenno
+<lb facs="#riga2_comba" />
+Storico</title>. —<placeName>Firenze</placeName>, coi tipi dell’<orgName type="publisher">Arte della stampa</orgName>,<date>1880</date>.
+</p>
+<lb facs="#riga3_comba" />
+<p>
+<orgName type="publisher">La Rassegna</orgName> ha già avuto occasione di ricordare questi
+<lb facs="#riga4_comba" />
+studi del <roleName>
+<choice>
+<abbr>sig.</abbr>
+<expan>signor</expan>
+</choice>
+<choice>
+<abbr>prof.</abbr>
+<expan>professore</expan>
+</choice>
+</roleName>
+<persName>Emilio Comba</persName> con la lode che meritano
+<lb facs="#riga5_comba" />
+anche sotto l’aspetto puramente scientifico e li citò dalla
+<lb facs="#riga6_comba" />
+<orgName type="publisher">Rivista Cristiana</orgName>, in cui apparvero la prima volta sott’altra
+<lb facs="#riga7_comba" />
+forma e meno completi. Il presente <term>saggio</term> è tratto dall’Introduzione
+<lb facs="#riga8_comba" />
+all’opera maggiore dello stesso <roleName>
+<choice>
+<abbr>prof.</abbr>
+<expan>professore</expan>
+</choice>
+</roleName>
+<persName>Comba</persName>,
+<lb facs="#riga9_comba" />
+ora in corso di stampa, ed intitolata: <title>Storia dei martiri
+<lb facs="#riga10_comba" />
+della Riforma italiana</title>, e ci piace il pensiero d’averlo pubblicato
+<lb facs="#riga11_comba" />
+da sé, perchè esso si riferisce ad un punto assai contro<lb break="no" facs="#riga12_comba" />
+verso e sparge molta luce su un episodio interess<lb break="no" facs="#riga13_comba" />
+antissimo di storia italiana, <seg type="theme">le origini cioè di quella buona e
+<lb facs="#riga14_comba" />
+valorosa popolazione, che da secoli abita le <placeName>Valli Pinerolesi</placeName>,
+<lb facs="#riga15_comba" />
+e fu tanto fida a’ suoi principii, quanto tenace difenditrice
+<lb facs="#riga16_comba" />
+delle sue credenze religiose</seg>.
+</p>
+<lb facs="#riga17_comba" />
+<p>Il <roleName>
+<choice>
+<abbr>prof.</abbr>
+<expan>professore</expan>
+</choice>
+</roleName>
+<persName>Comba</persName> dimostra come è nata l’ambiziosa leggenda,
+<lb facs="#riga18_comba" />
+che vuole i <orgName>Valdesi</orgName> anteriori a <persName>Pietro Valdo</persName>, ed è
+<lb facs="#riga19_comba" />
+curioso notare che la loro vera tradizione storica è mantenuta
+<lb facs="#riga20_comba" />
+negli scrittori cattolici, mentre invece le esuberanze
+<lb facs="#riga21_comba" />
+della <seg type="theme">polemica religiosa</seg>, riannodando dottrine e non fatti,
+<lb facs="#riga22_comba" />
+alterano presso gli scrittori valdesi quella tradizione, la
+<lb facs="#riga23_comba" />
+confondono, e scambiano per vera storia ciò che non è che
+<lb facs="#riga24_comba" />
+vanto di una <seg type="theme">maggior purezza di dottrina</seg>, di cui i <orgName>Valdesi</orgName>
+<lb facs="#riga25_comba" />
+si ritengono conservatori di fronte a <seg type="theme">deviazioni dogmatiche</seg>
+<lb facs="#riga26_comba" />
+ed alla <seg type="theme">corruttela morale della <orgName>Chiesa Romana</orgName>
+</seg>.
+</p>
+<lb facs="#riga27_comba" />
+<p>
+<persName>Pietro Valdo</persName> nacque nel <placeName>Delfinato</placeName> e si recò a <placeName>Lione</placeName>
+<lb facs="#riga28_comba" />
+verso la metà del <date>secolo XII</date>. Era <roleName>mercante</roleName> e, divenuto ricco,
+<lb facs="#riga29_comba" />
+un avvenimento, che è variamente narrato, lo indusse a
+<lb facs="#riga30_comba" />
+spogliarsi di tutte le sue ricchezze, che distribuì fra i suoi
+<lb facs="#riga31_comba" />
+parenti ed i poveri, <quote>« Non si può servire a due signori, a
+<lb facs="#riga32_comba" />
+Dio e a Mammone »</quote> andava gridando per le vie. Da prima
+<lb facs="#riga33_comba" />
+i suoi concittadini lo tennero per pazzo. Poscia si dà a volgarizzare
+<lb facs="#riga34_comba" />
+la <title>Bibbia</title> e a predicare, ma ne’ suoi commenti non
+<lb facs="#riga35_comba" />
+si discosta dall’interpretazione dei <roleName>Santi Padri</roleName>, sicché nel
+<lb facs="#riga36_comba" />
+<orgName>terzo Concilio Lateranese</orgName> la sua dottrina non può essere
+<lb facs="#riga37_comba" />
+condannata ed il <roleName>Papa</roleName> consente a lui di predicare, purché
+<lb facs="#riga38_comba" />
+si tenga nei limiti serbati fino allora. <seg type="theme">Non havvi dunque
+<lb facs="#riga39_comba" />
+che una sola diversità, e cioè la facoltà di predicare la dottrina
+<lb facs="#riga40_comba" />
+di Cristo, che <persName>Pietro Valdo</persName> afferma essere diritto
+<lb facs="#riga41_comba" />
+d’ogni credente, uomo o donna, e la <orgName>Chiesa Romana</orgName> per contrario
+<lb facs="#riga42_comba" />
+non permette senza missione apostolica, conceduta
+<lb facs="#riga43_comba" />
+da essa e sotto forme determinate</seg>. Persistendo il <persName>Valdo</persName> ed
+<lb facs="#riga44_comba" />
+i suoi, <roleName>Papa</roleName>
+<persName>Lucio III</persName> convocò a <placeName>Verona</placeName> un <orgName>Concilio</orgName> e, presente
+<lb facs="#riga45_comba" />
+l’<roleName>imperatore</roleName>
+<persName>Barbarossa</persName>, li scomunicò. Qui cominciano
+<lb facs="#riga46_comba" />
+le persecuzioni dei <orgName>Valdesi</orgName>, i quali si disperdono, si
+<lb facs="#riga47_comba" />
+mescolano qua ai <orgName>Catari</orgName>, là ai <orgName>fratelli Moravi</orgName> in <placeName>Boemia</placeName>,
+<lb facs="#riga48_comba" />
+dal <placeName>Delfinato</placeName> emigrano in <placeName>Provenza</placeName>, in <placeName>Linguadoca</placeName> e in
+<lb facs="#riga49_comba" />
+altre provincie della <placeName>Francia meridionale</placeName>. Altri passano
+<lb facs="#riga50_comba" />
+le <geogName>Alpi</geogName> e penetrano in <placeName>Piemonte</placeName>, in <placeName>Lombardia</placeName> e parte in
+<lb facs="#riga51_comba" />
+quel di <placeName>Napoli</placeName> e di <placeName>Sicilia</placeName>. Nel tempo di questa emigrazione
+<lb facs="#riga52_comba" />
+<persName>Pietro Valdo</persName> muore, non si sa di certo nè dove, nè quando.
+<lb facs="#riga53_comba" />
+I <orgName>Valdesi</orgName> entrati per le <geogName>Alpi Cozie</geogName> nelle <placeName>Valli occidentali
+<lb facs="#riga54_comba" />
+del Piemonte</placeName> v’incontrarono essi qualche altra gente
+<lb facs="#riga55_comba" />
+ivi pure rifugiatasi da persecuzioni politiche o religiose e
+<lb facs="#riga56_comba" />
+quindi disposta ad accogliere novità? Più che a noi, al
+<lb facs="#riga57_comba" />
+<roleName>
+<choice>
+<abbr>prof.</abbr>
+<expan>professore</expan>
+</choice>
+</roleName>
+<persName>Comba</persName> sembra questa un’ipotesi poco fondata. Comunque
+<lb facs="#riga58_comba" />
+non la esclude. La venuta dei <orgName>Valdesi</orgName> nelle Valli
+<lb facs="#riga59_comba" />
+ha luogo tra il <date>XII</date> ed il <date>XIII secolo</date>, e forse non si va
+<lb facs="#riga60_comba" />
+molto lontani dal vero arrecandone l’occasione alla <term>crociata</term>
+<lb facs="#riga61_comba" />
+contro gli <orgName>Albigesi</orgName>. Nei primi tempi i <orgName>Valdesi</orgName> si tennero
+<lb facs="#riga62_comba" />
+occulti più che poterono, dissimulando persino, sotto l'appellativo
+<lb facs="#riga63_comba" />
+parentale di <term>Barbi</term>, I’ autorità dei loro <roleName>ministri</roleName>.
+<lb facs="#riga64_comba" />
+Ma scoperti e denunciati al <roleName>Vescovo di Torino</roleName>, il quale invocò
+<lb facs="#riga65_comba" />
+inutilmente contro di essi il braccio dell’<roleName>Imperatore</roleName>
+<lb facs="#riga66_comba" />
+<persName>Ottone IV</persName>, l’opposizione loro e quella degli altri abitatori
+<lb facs="#riga67_comba" />
+delle Valli ai vecchi signori feudali, ne determinò la <term>dedizione</term>
+<lb facs="#riga68_comba" />
+alla <orgName>Casa di Savoia</orgName> sotto <persName>Tommaso I</persName>. Si mescolarono
+<lb facs="#riga69_comba" />
+poscia a molte altre sètte religiose contemporanee,
+<lb facs="#riga70_comba" />
+nacquero dissensioni fra loro stessi. Sopravvissero però agli
+<lb facs="#riga71_comba" />
+<orgName>Arnaldisti</orgName>, agli <orgName>Umiliati</orgName>, ai <orgName>Catari</orgName>, finché stremati ed
+<lb facs="#riga72_comba" />
+oppressi dalle persecuzioni parevano già mezzo spenti,
+<lb facs="#riga73_comba" />
+quando la <term type="literary_movement">Riforma Protestante</term>, con la quale avevano già
+<lb facs="#riga74_comba" />
+tante affinità, sopraggiunse in buon punto ad infonder
+<lb facs="#riga75_comba" />
+loro nuova vita.</p>
+<lb facs="#riga76_comba" />
+<p>Dopo avere in breve, ma con vasta e sicura dottrina,
+<lb facs="#riga77_comba" />
+narrate così e discusse le origini dei <orgName>Valdesi</orgName>, il <roleName>
+<choice>
+<abbr>prof.</abbr>
+<expan>professore</expan>
+</choice>
+</roleName>
+<persName>Comba</persName>
+<lb facs="#riga78_comba" />
+passa a riassumere le loro tradizioni letterarie, nelle quali
+<lb facs="#riga79_comba" />
+trova una nuova conferma alla sua narrazione. E forse
+<lb facs="#riga80_comba" />
+questo il punto più importante dello studio del <roleName>
+<choice>
+<abbr>prof.</abbr>
+<expan>professore</expan>
+</choice>
+</roleName>
+<persName>Comba</persName>
+<lb facs="#riga81_comba" />
+e dove maggiormente appariscono l’acutezza e la sincerità
+<lb facs="#riga82_comba" />
+della sua critica. Nella dottrina valdese <quote>« vediamo affluire
+<lb facs="#riga83_comba" />
+rivoli da ogni parte: di qua, dottrine cristiane, miste di
+<lb facs="#riga84_comba" />
+errori romani; di là ascetiche usanze e forme ecclesiastiche
+<lb facs="#riga85_comba" />
+già professate dai <orgName>Catari</orgName>, ma però monde di lor pagana
+<lb facs="#riga86_comba" />
+superstizione; piu oltre, nuove nozioni derivate dalle reazioni
+<lb facs="#riga87_comba" />
+di <persName>Hus</persName> e dei <orgName>Fratelli di Boemia</orgName>. Infine si allarga e
+<lb facs="#riga88_comba" />
+mette al mare della <term type="literary_movement">Riforma</term>.... Fra la <orgName>Chiesa degenere di
+<lb facs="#riga89_comba" />
+Roma</orgName> e la <term type="literary_movement">Riforma</term> segnò, al punto di vista dom<lb break="no" facs="#riga90_comba" />
+matico,
+<lb facs="#riga91_comba" />
+morale e perfino ecclesiastico, un periodo di transizione. »</quote>
+</p>
+<lb facs="#riga92_comba" />
+<p>Abbiamo volentieri citate queste parole del <roleName>
+<choice>
+<abbr>prof.</abbr>
+<expan>professore</expan>
+</choice>
+</roleName>
+<persName>Comba</persName>,
+<lb facs="#riga93_comba" />
+perchè, indipendentemente da ogni polemica religiosa, esse
+<lb facs="#riga94_comba" />
+contengono la conclusione esatta di uno <seg type="theme">studio di critica
+<lb facs="#riga95_comba" />
+storica spassionato e diligentissimo</seg>.
+</p>
+</div>
+</div>
+
+
+<!-- Gruppo Periodici Inglesi -->
+<div type="section">
+<head>I — Periodici Inglesi.</head>
+<p>
+<lb facs="#riga1_inglesi"/>
+<orgName type="publisher">The Athenaeum</orgName> (<date>25 settembre</date>). Rende conto del primo volume della
+<lb facs="#riga2_inglesi"/>
+<title>Relazione sul Quarto Congresso degli Orientalisti</title>, attribuendo la più
+<lb facs="#riga3_inglesi"/>
+grande importanza al <title>Saggio dell’<persName>Ascoli</persName> sulle Iscrizioni ebraiche trovate</title>
+<lb facs="#riga4_inglesi"/>
+nel <placeName>napoletano</placeName>.
+<lb facs="#riga5_inglesi"/>
+— Parla delle osservazioni fatte dal <persName>Tacchini</persName> sulle <seg type="theme">protuberanze e
+<lb facs="#riga6_inglesi"/>
+macchie del sole</seg>.
+</p>
+<p>
+<lb facs="#riga7_inglesi"/>
+<orgName type="publisher">The Academy</orgName> (<date>25 settembre</date>). Dà un riassunto del secondo volume
+<lb facs="#riga8_inglesi"/>
+delle <title>Opere inedite</title> di <persName>Giacomo Leopardi</persName> pubblicate da <persName>Giuseppe Cugnoni</persName>.
+<lb facs="#riga9_inglesi"/>
+— Trova che lo studio di <persName>J. Wygram</persName> su <persName>Albertino Mussato</persName> ci dà
+<lb facs="#riga10_inglesi"/>
+una monografia eccellente sulla storia dell’<placeName>Italia</placeName> al <date>principio del seco<lb break="no" facs="#riga11_inglesi"/>
+lo XIV</date>.
+</p>
+</div>
+
+<!-- Gruppo Periodici Francesi -->
+<div type="section">
+<head>II — Periodici Francesi.</head>
+<p>
+<lb facs="#riga1_francesi"/>
+<orgName type="publisher">Revue Historique</orgName> (<date>settembre-ottobre</date>).<persName>Paolo Viollet</persName> loda il metodo
+<lb facs="#riga2_francesi"/>
+seguito dallo <persName>Scheffer-Boichorst</persName> nel suo libro sul <roleName>papa</roleName>
+<persName>Niccolò II</persName>.
+<lb facs="#riga3_francesi"/>
+—<persName>Otto Hartwig</persName> giudica il libro di <persName>Guglielmo Heyd</persName> intitolato: <title>Sto<lb break="no" facs="#riga4_francesi"/>
+ria del commercio levantino nel medio evo</title>, la pubblicazione storica più
+<lb facs="#riga5_francesi"/>
+importante che sia stata fatta in <placeName>Germania</placeName> durante <date>l'anno scorso</date>.
+<lb facs="#riga6_francesi"/>
+— Loda l’uso coscienzioso che <persName>Pietro Vigo</persName>, nella sua monografia su
+<lb facs="#riga7_francesi"/>
+<persName>Uguccione de la Faggiola</persName>, ha fatto delle fonti, ma gli rimprovera troppe
+<lb facs="#riga8_francesi"/>
+<seg type="theme">omissioni e inavvertenze</seg>.
+</p>
+<p>
+<lb facs="#riga9_francesi"/>
+<orgName type="publisher">Revue Suisse</orgName> (<date>settembre</date>). Dà un riassunto del libro di <persName>Marco Monnier</persName>
+<lb facs="#riga10_francesi"/>
+intitolato: <title>
+<foreign xml:lang="fr">Les contes populaires en Italie</foreign>
+</title> giudicandolo diverten<lb break="no" facs="#riga11_francesi"/>
+te e istruttivo.
+</p>
+<p>
+<lb facs="#riga12_francesi"/>
+<orgName type="publisher">Revue scientifique</orgName> (<date>25 settembre</date>). Descrive la colonia italiana stabilita
+<lb facs="#riga13_francesi"/>
+nella <geogName>baia d’Assab</geogName>.
+</p>
+<p>
+<lb facs="#riga14_francesi"/>
+<orgName type="publisher">Progrès libéral</orgName> (<date>7, 8, 9 settembre</date>). Contiene la traduzione fatta dal
+<lb facs="#riga15_francesi"/>
+<choice>
+<abbr>sig.</abbr>
+<expan>signor</expan>
+</choice>
+<persName>Luzel</persName> dell’episodio storico sugli <title>Eroi Salentini</title> (<date>1480</date>), lavoro della
+<lb facs="#riga16_francesi"/>
+signora <persName>Cesira Siciliani</persName> ultimamente pubblicato dalla <orgName type="publisher">Nuova Antologia</orgName>.
+</p>
+</div>
+
+
+
+
+</div>
+</body>
+
+
+</text>
+</TEI>
